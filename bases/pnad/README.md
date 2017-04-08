@@ -17,7 +17,7 @@ Baixe os dados de cada ano individualmente: ftp://ftp.ibge.gov.br/Trabalho_e_Ren
 1. Insira os arquivos de PESSOAS em TXT dentro desta pasta.
 2. Em computadores Linux, use o terminal para dar permissão de execução ao arquivo "pnad.sh" com o seguinte comando:
 
-  `chmod +x pnad.sh`
+    `chmod +x pnad.sh`
 
 3. Abra o R e execute o script "pnad.R"
 
