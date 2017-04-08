@@ -5,8 +5,14 @@ _Produção dos dados educacionais usados nos sites Educadata.org e Educadata.co
 
 ## Conteúdo
 
+- [Recursos](#recursos)
 - [Bases](#bases)
 - [Estrutura](#estrutura)
+
+## Recursos
+
+- Sistema Linux ou aplicativo que possa emular comandos Shell Script no Windows
+- Software R e muitas de suas bibliotecas (data.table, lubridate, plyr, bit64, ggplot2, xlsx etc.)
 
 ## Bases
 
