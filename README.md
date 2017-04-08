@@ -11,11 +11,14 @@ _Produção dos dados educacionais usados nos sites Educadata.org e Educadata.co
 
 ## Bases
 
-Para rodar os scripts será necessário adquirir as bases:
+Para rodar os scripts será necessário adquirir as bases em seus respectivos sites. As principais bases usadas serão:
 
-- PNAD: ftp://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_anual/microdados/
+- Pesquisa Nacional por Amostra de Domicílios (IBGE)
+- Censo Escolar da Educação Básica (INEP)
+- Censo do Ensino Superior (INEP)
+- Sistema de Avaliação da Educação Básica (SAEB)
 
-## Estrutura
+## Estrutu
 
   Os scripts serão organizados na seguinte estrutura:
 
