@@ -1,5 +1,6 @@
 # Unifica os dados das PNAD convertendo-os para um arquivo padrão do R (.RData)
 
+# Carreta bibliotecas usadas
 library("data.table")
 
 ## PNAD 2011 - PESSOA
