@@ -1,4 +1,4 @@
 Educadata
 ========
 
-_Dados dos sites Educadata.org e Educadata.com.br_
+_Produção dos dados dos sites Educadata.org e Educadata.com.br_
