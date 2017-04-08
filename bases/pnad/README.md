@@ -19,5 +19,5 @@ Baixe os dados de cada ano individualmente: ftp://ftp.ibge.gov.br/Trabalho_e_Ren
 
     `chmod +x pnad.sh`
 
-3. Abra o R e execute o script <a href="https://github.com/professorvirtual/educadata/blob/master/bases/pnad/pnad.R">pnad.R</a>
+3. Abra o R e execute o script <a href="https://github.com/professorvirtual/educadata/blob/master/bases/pnad/pnad.R" target="_blank">pnad.R</a>
 
