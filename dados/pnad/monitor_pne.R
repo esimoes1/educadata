@@ -39,6 +39,8 @@ detach(pnad)
 # Seleciona pessoas de 0 a 3 anos e vincula variáveis
 attach(subset(pnad,idade_cne %in% c(0:3)))
 
+# TAXA DE ATENDIMENTO DE 0 A 3
+
 # Calcula absoluto e percentual de pessoas de 0 a 3 anos que frequentam a escola para o Brasil
 num=tapply(V4729[V0602==2], V0101[V0602==2], sum)
 den=tapply(V4729, V0101, sum)
@@ -56,6 +58,8 @@ indic_uf_1B = data.frame(indic="1b", num[c(-3)], num[3], den[3], perc = (num$num
 
 # Desvincula variáveis
 detach(subset(pnad,idade_cne %in% c(0:3)))
+
+# TAXA DE ATENDIMENTO DE 4 A 5
 
 # Seleciona pessoas de 4 a 5 anos e vincula variáveis
 attach(subset(pnad,idade_cne %in% c(4:5)))
@@ -77,6 +81,8 @@ indic_uf_1A = data.frame(indic="1a", num[c(-3)], num[3], den[3], perc = (num$num
 
 # Desvincula variáveis
 detach(subset(pnad,idade_cne %in% c(4:5)))
+
+# TAXA DE ATENDIMENTO DE 6 A 14
 
 # Seleciona pessoas de 6 a 14 anos e vincula variáveis
 attach(subset(pnad,idade_cne %in% c(6:14)))
@@ -121,6 +127,8 @@ indic_uf_2A = data.frame(indic="2a", num[c(-3)], num[3], den[3], perc = (num$num
 # Desvincula variáveis
 detach(subset(pnad,idade_cne %in% c(6:14)))
 
+# TAXA DE CONCLUSÃO DO ENSINO FUNDAMENTAL AOS 16 ANOS
+
 # Seleciona pessoas de 16 anos
 attach(subset(pnad,idade_cne==16))
 
@@ -164,6 +172,8 @@ indic_uf_2B = data.frame(indic="2b", num[c(-3)], num[3], den[3], perc = (num$num
 # Desvincula variáveis
 detach(subset(pnad,idade_cne==16))
 
+# TAXA DE ATENDIMENTO DE 15 A 17 ANOS
+
 # Seleciona pessoas de 15 a 17 anos e vincula variáveis
 attach(subset(pnad,idade_cne %in% c(15:17)))
 
@@ -193,6 +203,8 @@ num=setNames(melt(tapply(V4729[V0602==2 |
                                    (V0602==4 & V0606==2 & V0611==1 & V6007 %in% c(5,7,8))]),sum)),c("unid","ano","num"))
 den=setNames(melt(tapply(V4729, list(UF,V0101), sum)),c("unid","ano","den"))
 indic_uf_3A = data.frame(indic="3a", num[c(-3)], num[3], den[3], perc = (num$num/den$den)*100)
+
+# TAXA DE ESCOLARIZAÇÃO LÍQUIDA AJUSTADA OU TAXA DE MATRÍCULA LÍQUIDA AJUSTADA DO ENSINO MÉDIO
 
 # Calcula absoluto e percentual de pessoas de 15 a 17 anos que frequentam o ensino médio para o Brasil
 num=tapply(V4729[(V0602==2 & V6003 %in% c(2,4,5,10,11)) |
@@ -230,6 +242,8 @@ num=setNames(melt(tapply(V4729[(V0602==2 & V6003 %in% c(2,4,5,10,11)) |
                          sum)),c("unid","ano","num"))
 den=setNames(melt(tapply(V4729, list(UF,V0101), sum)),c("unid","ano","den"))
 indic_uf_3B = data.frame(indic="3b", num[c(-3)], num[3], den[3], perc = (num$num/den$den)*100)
+
+# TAXA DE CONCLUSÃO DO ENSINO MÉDIO AOS 19 ANOS
 
 # Calcula absoluto e percentual de pessoas de 15 a 17 anos que já concluiu o ensino médio para o Brasil
 attach(subset(pnad,idade_cne==19))
@@ -272,6 +286,8 @@ indic_uf_3C = data.frame(indic="3c", num[c(-3)], num[3], den[3], perc = (num$num
 # Desvincula as variáveis
 detach(subset(pnad,idade_cne %in% c(15:17)))
 
+# TAXA DE ALFABETIZAÇÃO DE PESSOAS DE 15 ANOS OU MAIS
+
 # Seleciona pessoas com ou sem data de nascimento informada
 pnad <- pnads
 
@@ -292,6 +308,8 @@ indic_rg_9A = data.frame(indic="9a", num[c(-3)], num[3], den[3], perc = (num$num
 num=setNames(melt(tapply(V4729[V0601==1], list(UF[V0601==1],V0101[V0601==1]), sum)),c("unid","ano","num"))
 den=setNames(melt(tapply(V4729, list(UF,V0101), sum)),c("unid","ano","den"))
 indic_uf_9A = data.frame(indic="9a", num[c(-3)], num[3], den[3], perc = (num$num/den$den)*100)
+
+# TAXA DE ANALFABETISMO FUNCIONAL DE PESSOAS DE 15 ANOS OU MAIS
 
 # Absoluto e percentual de pessoas de 15 anos ou mais que sabem ler e escrever ou que não concluíram os anos iniciais do ensino fundamental para o Brasil
 num=tapply(V4729[V0601==3 | V4803<5], V0101[V0601==3 | V4803<5], sum)
