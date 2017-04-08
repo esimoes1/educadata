@@ -7,7 +7,6 @@ _Produção dos dados educacionais usados nos sites Educadata.org e Educadata.co
 
 - [Bases](#bases)
 - [Estrutura](#estrutura)
-- [Pnad](#pnad)
 
 ## Bases
 
