@@ -11,7 +11,7 @@ _Produção dos principais indicadores usados para monitorar o desenvolvimento d
 ## Indicadores
 
 Com exceção do 3C todos os demais indicadores foram produzidos seguindo as notas técnicas produzidas e publicadas pelo INEP no
-<a href="http://download.inep.gov.br/outras_acoes/estudos_pne/2016/relatorio_pne_2014_a_2016.pdf">Relatório do 1º Ciclo de Monitoramento das Metas do PNE 2014-2014</a>
+<a href="http://download.inep.gov.br/outras_acoes/estudos_pne/2016/relatorio_pne_2014_a_2016.pdf" target="_blank">Relatório do 1º Ciclo de Monitoramento das Metas do PNE 2014-2014</a>
 
 - Indicador 1A - Taxa de Atendimento Escolar de 4 a 5 anos
 - Indicador 1B - Taxa de Atendimento Escolar de 0 a 3 anos
