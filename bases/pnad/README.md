@@ -15,7 +15,7 @@ Baixe os dados de cada ano individualmente: ftp://ftp.ibge.gov.br/Trabalho_e_Ren
 ## Importação
 
 1. Insira os arquivos de PESSOAS em TXT dentro desta pasta.
-2. Em computadores Linux, use o terminal para dar permissão de execução ao arquivo <a href="https://github.com/professorvirtual/educadata/blob/master/bases/pnad/pnad.sh">pnad.sh</a> com o seguinte comando:
+2. Em computadores Linux, use o terminal para dar permissão de execução ao arquivo <a target="_blank" href="https://github.com/professorvirtual/educadata/blob/master/bases/pnad/pnad.sh" target="_blank">pnad.sh</a> com o seguinte comando:
 
     `chmod +x pnad.sh`
 
