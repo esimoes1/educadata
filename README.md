@@ -23,7 +23,7 @@ Para rodar os scripts será necessário adquirir as bases em seus respectivos si
 
 - Bases
 
-  Scripts de organizaço das bases usadas.
+  Scripts de organização das bases usadas.
 
 - Dados
 
@@ -31,5 +31,5 @@ Para rodar os scripts será necessário adquirir as bases em seus respectivos si
 
 - Relatórios
 
-  Scripts de geração de relatórios
+  Scripts de geração de relatórios.
 
