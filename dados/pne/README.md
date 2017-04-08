@@ -25,4 +25,4 @@ http://download.inep.gov.br/outras_acoes/estudos_pne/2016/relatorio_pne_2014_a_2
 
 ## Produção
 
-1. Execute o arquivo "monitor_pne.R" e ele produzirá o arquivo "monitor_pne.RData" com todos os indicadores indicadores.
+1. Execute o arquivo <a href="https://github.com/professorvirtual/educadata/blob/master/dados/pne/pne.R">pne.R</a> e ele produzirá o arquivo "pne.RData" com todos os indicadores indicadores.
