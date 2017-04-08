@@ -311,33 +311,6 @@ indic_uf_9B = data.frame(indic="9b", num[c(-3)], num[3], den[3], perc = (num$num
 detach(subset(pnad,V8005>=15))
 
 rm(pnad11,pnad12,pnad13,pnad14,pnad15)
-rm(den,num,pnad,pnads)
-rm(
-	indic_br_1A,
-	indic_br_1B,
-	indic_br_2A,
-	indic_br_2B,
-	indic_br_3A,
-	indic_br_3B,
-	indic_br_3C,
-	indic_br_9A,
-	indic_br_9B,
-	indic_rg_1A,
-	indic_rg_1B,
-	indic_rg_2A,
-	indic_rg_2B,
-	indic_rg_3A,
-	indic_rg_3B,
-	indic_rg_3C,
-	indic_rg_9A,
-	indic_rg_9B,
-	indic_uf_1A,
-	indic_uf_1B,
-	indic_uf_2A,
-	indic_uf_2B,
-	indic_uf_3A,
-	indic_uf_3B,
-	indic_uf_3C,
-	indic_uf_9A,
-	indic_uf_9B
-	)
+rm(calcIdade,den,num,pnad,pnads)
+
+save.image("monitor_pne.RData")
