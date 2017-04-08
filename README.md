@@ -18,7 +18,7 @@ Para rodar os scripts será necessário adquirir as bases em seus respectivos si
 - Censo do Ensino Superior (INEP)
 - Sistema de Avaliação da Educação Básica (SAEB)
 
-## Estrutu
+## Estrutura
 
   Os scripts serão organizados na seguinte estrutura:
 
