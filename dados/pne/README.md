@@ -25,5 +25,5 @@ http://download.inep.gov.br/outras_acoes/estudos_pne/2016/relatorio_pne_2014_a_2
 
 ## Produção
 
-1. Prepare as bases da PNAD como mostrado em <a href="https://github.com/professorvirtual/educadata/blob/master/bases/pnad/README.md">Bases - PNAD</a>
+1. Prepare as bases da PNAD como mostrado em <a href="https://github.com/professorvirtual/educadata/blob/master/bases/pnad/README.md" target="_blank">Bases - PNAD</a>
 2. Execute o arquivo <a href="https://github.com/professorvirtual/educadata/blob/master/dados/pne/pne.R">pne.R</a> e ele produzirá o arquivo "pne.RData" com todos os indicadores indicadores.
