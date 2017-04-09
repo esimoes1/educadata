@@ -1,11 +1,11 @@
 # Dados de Monitoramento do PNE 2014-2024
 
-# Carrega dados das PNAD
-load("../../bases/pnad/pnads.RData")
-
 # Carrega bibliotecas
 library(lubridate)
 library(data.table)
+
+# Carrega dados das PNAD
+load("../../bases/pnad/pnads.RData")
 
 # Declara função para cálculo de idade
 calcIdade <- function(nascimento, referencia = Sys.Date()) {
@@ -326,9 +326,51 @@ num=setNames(melt(tapply(V4729[V0601==3 | V4803<5], list(UF[V0601==3 | V4803<5],
 den=setNames(melt(tapply(V4729, list(UF,V0101), sum)),c("unid","ano","den"))
 indic_uf_9B = data.frame(indic="9b", num[c(-3)], num[3], den[3], perc = (num$num/den$den)*100)
 
+# Desvincula variáveis
 detach(subset(pnad,V8005>=15))
 
-rm(pnad11,pnad12,pnad13,pnad14,pnad15)
-rm(calcIdade,den,num,pnad,pnads)
+# Empilha todos os indicadores sendo as "unid":
+## 0 - Brasil
+## 1 - Norte
+## 2 - Nordeste
+## 3 - Sudeste
+## 4 - Sul
+## 5 - Centro-Oeste
+## De 11 a 54 - Códigos dos estados segundo o IBGE
+
+indicadores <- rbind(
+  indic_br_1A,
+  indic_br_1B,
+  indic_br_2A,
+  indic_br_2B,
+  indic_br_3A,
+  indic_br_3B,
+  indic_br_3C,
+  indic_br_9A,
+  indic_br_9B,
+  indic_rg_1A,
+  indic_rg_1B,
+  indic_rg_2A,
+  indic_rg_2B,
+  indic_rg_3A,
+  indic_rg_3B,
+  indic_rg_3C,
+  indic_rg_9A,
+  indic_rg_9B,
+  indic_uf_1A,
+  indic_uf_1B,
+  indic_uf_2A,
+  indic_uf_2B,
+  indic_uf_3A,
+  indic_uf_3B,
+  indic_uf_3C,
+  indic_uf_9A,
+  indic_uf_9B
+  )
+
+rm(list=ls(pattern="indic_"))
+rm(list=ls(pattern="pnad"))
+rm(calcIdade,den,num)
 
 save.image("pne.RData")
+
