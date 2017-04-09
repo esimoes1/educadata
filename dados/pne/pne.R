@@ -36,10 +36,10 @@ pnad$idade_cne <- calcIdade(paste(
 # Desvincula variáveis
 detach(pnad)
 
+# TAXA DE ATENDIMENTO DE 0 A 3
+
 # Seleciona pessoas de 0 a 3 anos e vincula variáveis
 attach(subset(pnad,idade_cne %in% c(0:3)))
-
-# TAXA DE ATENDIMENTO DE 0 A 3
 
 # Calcula absoluto e percentual de pessoas de 0 a 3 anos que frequentam a escola para o Brasil
 num=tapply(V4729[V0602==2], V0101[V0602==2], sum)
@@ -331,4 +331,4 @@ detach(subset(pnad,V8005>=15))
 rm(pnad11,pnad12,pnad13,pnad14,pnad15)
 rm(calcIdade,den,num,pnad,pnads)
 
-save.image("monitor_pne.RData")
+save.image("pne.RData")
