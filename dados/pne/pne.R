@@ -368,9 +368,14 @@ indicadores <- rbind(
   indic_uf_9B
   )
 
+# Remove dataframes e variáveis excedentes
 rm(list=ls(pattern="indic_"))
 rm(list=ls(pattern="pnad"))
 rm(calcIdade,den,num)
 
+# Salva o conteúdo em arquivo de dados do R
 save.image("pne.RData")
+
+# Salva o conteúdo em arquivo CSV
+write.csv(indicadores,"indicadores.csv",row.names=F,na="")
 
