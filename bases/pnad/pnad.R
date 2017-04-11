@@ -1,4 +1,4 @@
-# Carreta bibliotecas usadas
+# Carrega bibliotecas usadas
 library("data.table")
 library("bit64")
 
