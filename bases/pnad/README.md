@@ -15,9 +15,5 @@ Baixe os dados de cada ano individualmente: <a href="ftp://ftp.ibge.gov.br/Traba
 ## Importação
 
 1. Insira os arquivos de PESSOAS em TXT dentro desta pasta.
-2. Em computadores Linux, use o terminal para dar permissão de execução ao arquivo <a target="_blank" href="https://github.com/professorvirtual/educadata/blob/master/bases/pnad/pnad.sh" target="_blank">pnad.sh</a> com o seguinte comando:
-
-    `chmod +x pnad.sh`
-
-3. Abra o R e execute o script <a href="https://github.com/professorvirtual/educadata/blob/master/bases/pnad/pnad.R" target="_blank">pnad.R</a>
+2. Abra o R e execute o script <a href="https://github.com/professorvirtual/educadata/blob/master/bases/pnad/pnad.R" target="_blank">pnad.R</a>
 
