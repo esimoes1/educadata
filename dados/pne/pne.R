@@ -377,5 +377,5 @@ rm(calcIdade,den,num)
 save.image("pne.RData")
 
 # Salva o conteúdo em arquivo CSV
-write.csv(indicadores,"indicadores.csv",row.names=F,na="")
+write.csv2(indicadores,"indicadores.csv",row.names=F,na="")
 
