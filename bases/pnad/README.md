@@ -14,6 +14,6 @@ Baixe os dados de cada ano individualmente: <a href="ftp://ftp.ibge.gov.br/Traba
 
 ## Importação
 
-1. Insira os arquivos de PESSOAS em TXT dentro desta pasta.
+1. Crie uma pasta chamada "pnads" e insira todos os arquivos de PESSOAS no formato TXT dos anos que desejar nela.
 2. Abra o R e execute o script <a href="https://github.com/professorvirtual/educadata/blob/master/bases/pnad/pnad.R" target="_blank">pnad.R</a>
 
