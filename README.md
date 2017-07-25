@@ -29,11 +29,11 @@ As principais bases usadas serão:
 
 - Bases
 
-  Scripts de organização das bases usadas.
+  Scripts de organização e tratamento das bases usadas.
 
 - Dados
 
-  Scripts de produção dos dados.
+  Scripts de organizaço e produção dos dados.
 
 - Relatórios
 
