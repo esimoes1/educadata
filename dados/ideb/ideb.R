@@ -1,5 +1,5 @@
 # Dados do Índice de Desenvolvimento da Educação - IDEB
-# Fonte: INEP/Ideb
+# Fonte: INEP/Ideb 2015
 # Elaboração: Educadata - http://educadata.org
 
 # Expande a quantidade máxima de memória dinâmica da máquina virtual Java
