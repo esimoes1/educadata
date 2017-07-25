@@ -189,3 +189,5 @@ Anos Finais
 - proj_2017 = Resultado Projetado do IDEB - Anos Finais em 2017
 - proj_2019 = Resultado Projetado do IDEB - Anos Finais em 2019
 - proj_2021 = Resultado Projetado do IDEB - Anos Finais em 2021
+
+Convertemos, por fim, os dados para o formato CSV e para o Formato RData, sendo este último a forma pela qual carregamos os dados mais rapidamente no software R para análises posteriores.
