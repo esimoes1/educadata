@@ -33,7 +33,7 @@ As principais bases usadas serão:
 
 - Dados
 
-  Scripts de organizaço e produção dos dados.
+  Scripts de organização e produção dos dados.
 
 - Relatórios
 
