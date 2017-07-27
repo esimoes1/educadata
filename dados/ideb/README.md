@@ -195,9 +195,9 @@ Anos Finais
 - proj_af_2019 = Resultado Projetado do IDEB - Anos Finais em 2019
 - proj_af_2021 = Resultado Projetado do IDEB - Anos Finais em 2021
 
-## Organização
+## Dados
 
-Convertemos, por fim, os dados para o formato CSV e para o Formato RData, sendo este último a forma pela qual carregamos os dados mais rapidamente no software R para análise. 
+Os dados estarão nos formatos CSV e RData, sendo este último a forma pela qual os carregamos mais rapidamente usando o software R. 
 
 Confira os dados baixando os arquivos disponíveis em Educadata.org:
 
