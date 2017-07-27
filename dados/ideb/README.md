@@ -27,7 +27,7 @@ Realizamos a extração utilizando o software R com o pacote "xlsx", aplicados d
 
 Então, execute o o script:
 
-`_Rscript ideb.R_`
+_`Rscript ideb.R`_
 
 Veja também algumas observações importantes:
 
