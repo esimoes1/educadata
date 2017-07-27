@@ -24,7 +24,7 @@ Baixe-os e extraia os arquivos para dentro da mesma pasta.
 
 ## Extração
 
-Realizamos a extração utilizando o software R com o pacote "xlsx", aplicados diretamente nos arquivos em formato XLSX. Baixe e armazene o script "ideb.R" na mesma pasta dos arquivos "xlsx". Após, é só executar o script usando o RStudio ou executando o seguinte comando em terminal linux:
+Realizamos a extração utilizando o software R com o pacote "xlsx", aplicados diretamente nos arquivos em formato XLSX. Baixe e armazene o script <a href="https://github.com/professorvirtual/educadata/blob/master/dados/ideb/ideb.R">ideb.R</a> na mesma pasta dos arquivos "xlsx". Após, é só executar o script usando o RStudio ou executando o seguinte comando em terminal linux:
 
 _Rscript ideb.R_
 
