@@ -6,8 +6,7 @@ _Download, extração e organização dos dados em formato CSV_
 ## Conteúdo
 
 - [Download](#download)
-- [Extração](#extracao)
-- [Organização](#organizacao)
+- [Extração e Organização](#extracao)
 - [Dados](#dados)
 
 ## Download
@@ -20,22 +19,19 @@ Os arquivos dos resultados por escola podem ser baixados clicando em:
 - <a href="http://download.inep.gov.br/educacao_basica/portal_ideb/planilhas_para_download/2015/divulgacao_anos_iniciais_escolas_2015.zip" target="_blank">Anos Iniciais</a>
 - <a href="http://download.inep.gov.br/educacao_basica/portal_ideb/planilhas_para_download/2015/divulgacao_anos_finais_escolas_2015.zip" target="_blank">Anos Finais</a>
 
-Baixe-os e extraia os arquivos para dentro da mesma pasta.
+Passo 1: Baixe os arquivos e descompacte-os em uma mesma pasta.
 
-## Extração
+## Extração e Organização
 
 Realizamos a extração utilizando o software R com o pacote "xlsx", aplicados diretamente nos arquivos em formato XLSX. Baixe e armazene o script <a href="https://github.com/professorvirtual/educadata/blob/master/dados/ideb/ideb.R">ideb.R</a> na mesma pasta dos arquivos "xlsx". Após, é só executar o script usando o RStudio ou executando o seguinte comando em terminal linux:
 
-_Rscript ideb.R_
+`Rscript ideb.R`
 
 Veja também algumas observações importantes:
 
 - Devido ao tamanho dos arquivos ocorre um alto consumo de memória RAM, por isso é bom deixar apenas o R executando no computador;
 - Os arquivos possuem formatação visual e, portanto, precisamos retirar as linhas de cabeçalho, linhas com informação e fonte e notas de rodapé (tudo isso via script R mesmo).
-
-## Organização
-
-Para organizar os dados produzimos cabeçalhos diferentes para os Anos Iniciais e para os Anos Finais. Decidimos pela quantidade de séries diferentes que cada uma dessas etapas possui. Veja o cabeçalho completo e o significado das variáveis:
+- Veja o cabeçalho completo e o significado das variáveis:
 
 Anos Iniciais
 
