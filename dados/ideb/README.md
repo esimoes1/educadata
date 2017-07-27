@@ -8,6 +8,7 @@ _Download, extração e organização dos dados em formato CSV_
 - [Download](#download)
 - [Extração](#extracao)
 - [Organização](#organizacao)
+- [Dados](#dados)
 
 ## Download
 
@@ -80,38 +81,38 @@ Anos Iniciais
 - apv_ai_a4_2015 = Taxa de Aprovação do 4º ano EF em 2015
 - apv_ai_a5_2015 = Taxa de Aprovação do 5º ano EF em 2015
 - ind_rend_ai_2015 = Indicador de Rendimento em 2015
-- profic_mat_2005 = Média de Proficiência do 5º Ano em Matemática em 2005
-- profic_lp_2005 = Média de Proficiência do 5º Ano em Língua Portuguesa em 2005
-- np_2005 = Indicador de Desempenho (Nota padronizada do 5º Ano) em 2005
-- profic_mat_2007 = Média de Proficiência do 5º Ano em Matemática em 2007
-- profic_lp_2007 = Média de Proficiência do 5º Ano em Língua Portuguesa em 2007
-- np_2007 = Indicador de Desempenho (Nota padronizada do 5º Ano) em 2007
-- profic_mat_2009 = Média de Proficiência do 5º Ano em Matemática em 2009
-- profic_lp_2009 = Média de Proficiência do 5º Ano em Língua Portuguesa em 2009
-- np_2009 = Indicador de Desempenho (Nota padronizada do 5º Ano) em 2009
-- profic_mat_2011 = Média de Proficiência do 5º Ano em Matemática em 2011
-- profic_lp_2011 = Média de Proficiência do 5º Ano em Língua Portuguesa em 2011
-- np_2011 = Indicador de Desempenho (Nota padronizada do 5º Ano) em 2011
-- profic_mat_2013 = Média de Proficiência do 5º Ano em Matemática em 2013
-- profic_lp_2013 = Média de Proficiência do 5º Ano em Língua Portuguesa em 2013
-- np_2013 = Indicador de Desempenho (Nota padronizada do 5º Ano) em 2013
-- profic_mat_2015 = Média de Proficiência do 5º Ano em Matemática em 2015
-- profic_lp_2015 = Média de Proficiência do 5º Ano em Língua Portuguesa em 2015
-- np_2015 = Indicador de Desempenho (Nota padronizada do 5º Ano) em 2015
-- ideb_2005 = Resultado Observado do IDEB - Anos Iniciais em 2005
-- ideb_2007 = Resultado Observado do IDEB - Anos Iniciais em 2007
-- ideb_2009 = Resultado Observado do IDEB - Anos Iniciais em 2009
-- ideb_2011 = Resultado Observado do IDEB - Anos Iniciais em 2011
-- ideb_2013 = Resultado Observado do IDEB - Anos Iniciais em 2013
-- ideb_2015 = Resultado Observado do IDEB - Anos Iniciais em 2015
-- proj_2007 = Resultado Projetado do IDEB - Anos Iniciais em 2007
-- proj_2009 = Resultado Projetado do IDEB - Anos Iniciais em 2009
-- proj_2011 = Resultado Projetado do IDEB - Anos Iniciais em 2011
-- proj_2013 = Resultado Projetado do IDEB - Anos Iniciais em 2013
-- proj_2015 = Resultado Projetado do IDEB - Anos Iniciais em 2015
-- proj_2017 = Resultado Projetado do IDEB - Anos Iniciais em 2017
-- proj_2019 = Resultado Projetado do IDEB - Anos Iniciais em 2019
-- proj_2021 = Resultado Projetado do IDEB - Anos Iniciais em 2021
+- profic_a5_mat_2005 = Média de Proficiência do 5º Ano em Matemática em 2005
+- profic_a5_lp_2005 = Média de Proficiência do 5º Ano em Língua Portuguesa em 2005
+- np_a5_2005 = Indicador de Desempenho (Nota padronizada do 5º Ano) em 2005
+- profic_a5_mat_2007 = Média de Proficiência do 5º Ano em Matemática em 2007
+- profic_a5_lp_2007 = Média de Proficiência do 5º Ano em Língua Portuguesa em 2007
+- np_a5_2007 = Indicador de Desempenho (Nota padronizada do 5º Ano) em 2007
+- profic_a5_mat_2009 = Média de Proficiência do 5º Ano em Matemática em 2009
+- profic_a5_lp_2009 = Média de Proficiência do 5º Ano em Língua Portuguesa em 2009
+- np_a5_2009 = Indicador de Desempenho (Nota padronizada do 5º Ano) em 2009
+- profic_a5_mat_2011 = Média de Proficiência do 5º Ano em Matemática em 2011
+- profic_a5_lp_2011 = Média de Proficiência do 5º Ano em Língua Portuguesa em 2011
+- np_a5_2011 = Indicador de Desempenho (Nota padronizada do 5º Ano) em 2011
+- profic_a5_mat_2013 = Média de Proficiência do 5º Ano em Matemática em 2013
+- profic_a5_lp_2013 = Média de Proficiência do 5º Ano em Língua Portuguesa em 2013
+- np_a5_2013 = Indicador de Desempenho (Nota padronizada do 5º Ano) em 2013
+- profic_a5_mat_2015 = Média de Proficiência do 5º Ano em Matemática em 2015
+- profic_a5_lp_2015 = Média de Proficiência do 5º Ano em Língua Portuguesa em 2015
+- np_a5_2015 = Indicador de Desempenho (Nota padronizada do 5º Ano) em 2015
+- ideb_ai_2005 = Resultado Observado do IDEB - Anos Iniciais em 2005
+- ideb_ai_2007 = Resultado Observado do IDEB - Anos Iniciais em 2007
+- ideb_ai_2009 = Resultado Observado do IDEB - Anos Iniciais em 2009
+- ideb_ai_2011 = Resultado Observado do IDEB - Anos Iniciais em 2011
+- ideb_ai_2013 = Resultado Observado do IDEB - Anos Iniciais em 2013
+- ideb_ai_2015 = Resultado Observado do IDEB - Anos Iniciais em 2015
+- proj_ai_2007 = Resultado Projetado do IDEB - Anos Iniciais em 2007
+- proj_ai_2009 = Resultado Projetado do IDEB - Anos Iniciais em 2009
+- proj_ai_2011 = Resultado Projetado do IDEB - Anos Iniciais em 2011
+- proj_ai_2013 = Resultado Projetado do IDEB - Anos Iniciais em 2013
+- proj_ai_2015 = Resultado Projetado do IDEB - Anos Iniciais em 2015
+- proj_ai_2017 = Resultado Projetado do IDEB - Anos Iniciais em 2017
+- proj_ai_2019 = Resultado Projetado do IDEB - Anos Iniciais em 2019
+- proj_ai_2021 = Resultado Projetado do IDEB - Anos Iniciais em 2021
 
 Anos Finais
 
@@ -157,37 +158,43 @@ Anos Finais
 - apv_af_a8_2015 = Taxa de Aprovação do 8º ano EF em 2015
 - apv_af_a9_2015 = Taxa de Aprovação do 9º ano EF em 2015
 - ind_rend_af_2015 = Indicador de Rendimento em 2015
-- profic_mat_2005 = Média de Proficiência do 9º Ano em Matemática em 2005
-- profic_lp_2005 = Média de Proficiência do 9º Ano em Língua Portuguesa em 2005
-- np_2005 = Indicador de Desempenho (Nota padronizada do 9º Ano) em 2005
-- profic_mat_2007 = Média de Proficiência do 9º Ano em Matemática em 2007
-- profic_lp_2007 = Média de Proficiência do 9º Ano em Língua Portuguesa em 2007
-- np_2007 = Indicador de Desempenho (Nota padronizada do 9º Ano) em 2007
-- profic_mat_2009 = Média de Proficiência do 9º Ano em Matemática em 2009
-- profic_lp_2009 = Média de Proficiência do 9º Ano em Língua Portuguesa em 2009
-- np_2009 = Indicador de Desempenho (Nota padronizada do 9º Ano) em 2009
-- profic_mat_2011 = Média de Proficiência do 9º Ano em Matemática em 2011
-- profic_lp_2011 = Média de Proficiência do 9º Ano em Língua Portuguesa em 2011
-- np_2011 = Indicador de Desempenho (Nota padronizada do 9º Ano) em 2011
-- profic_mat_2013 = Média de Proficiência do 9º Ano em Matemática em 2013
-- profic_lp_2013 = Média de Proficiência do 9º Ano em Língua Portuguesa em 2013
-- np_2013 = Indicador de Desempenho (Nota padronizada do 9º Ano) em 2013
-- profic_mat_2015 = Média de Proficiência do 9º Ano em Matemática em 2015
-- profic_lp_2015 = Média de Proficiência do 9º Ano em Língua Portuguesa em 2015
-- np_2015 = Indicador de Desempenho (Nota padronizada do 9º Ano) em 2015
-- ideb_2005 = Resultado Observado do IDEB - Anos Finais em 2005
-- ideb_2007 = Resultado Observado do IDEB - Anos Finais em 2007
-- ideb_2009 = Resultado Observado do IDEB - Anos Finais em 2009
-- ideb_2011 = Resultado Observado do IDEB - Anos Finais em 2011
-- ideb_2013 = Resultado Observado do IDEB - Anos Finais em 2013
-- ideb_2015 = Resultado Observado do IDEB - Anos Finais em 2015
-- proj_2007 = Resultado Projetado do IDEB - Anos Finais em 2007
-- proj_2009 = Resultado Projetado do IDEB - Anos Finais em 2009
-- proj_2011 = Resultado Projetado do IDEB - Anos Finais em 2011
-- proj_2013 = Resultado Projetado do IDEB - Anos Finais em 2013
-- proj_2015 = Resultado Projetado do IDEB - Anos Finais em 2015
-- proj_2017 = Resultado Projetado do IDEB - Anos Finais em 2017
-- proj_2019 = Resultado Projetado do IDEB - Anos Finais em 2019
-- proj_2021 = Resultado Projetado do IDEB - Anos Finais em 2021
+- profic_a9_mat_2005 = Média de Proficiência do 9º Ano em Matemática em 2005
+- profic_a9_lp_2005 = Média de Proficiência do 9º Ano em Língua Portuguesa em 2005
+- np_a9_2005 = Indicador de Desempenho (Nota padronizada do 9º Ano) em 2005
+- profic_a9_mat_2007 = Média de Proficiência do 9º Ano em Matemática em 2007
+- profic_a9_lp_2007 = Média de Proficiência do 9º Ano em Língua Portuguesa em 2007
+- np_a9_2007 = Indicador de Desempenho (Nota padronizada do 9º Ano) em 2007
+- profic_a9_mat_2009 = Média de Proficiência do 9º Ano em Matemática em 2009
+- profic_a9_lp_2009 = Média de Proficiência do 9º Ano em Língua Portuguesa em 2009
+- np_a9_2009 = Indicador de Desempenho (Nota padronizada do 9º Ano) em 2009
+- profic_a9_mat_2011 = Média de Proficiência do 9º Ano em Matemática em 2011
+- profic_a9_lp_2011 = Média de Proficiência do 9º Ano em Língua Portuguesa em 2011
+- np_a9_2011 = Indicador de Desempenho (Nota padronizada do 9º Ano) em 2011
+- profic_a9_mat_2013 = Média de Proficiência do 9º Ano em Matemática em 2013
+- profic_a9_lp_2013 = Média de Proficiência do 9º Ano em Língua Portuguesa em 2013
+- np_a9_2013 = Indicador de Desempenho (Nota padronizada do 9º Ano) em 2013
+- profic_a9_mat_2015 = Média de Proficiência do 9º Ano em Matemática em 2015
+- profic_a9_lp_2015 = Média de Proficiência do 9º Ano em Língua Portuguesa em 2015
+- np_a9_2015 = Indicador de Desempenho (Nota padronizada do 9º Ano) em 2015
+- ideb_af_2005 = Resultado Observado do IDEB - Anos Finais em 2005
+- ideb_af_2007 = Resultado Observado do IDEB - Anos Finais em 2007
+- ideb_af_2009 = Resultado Observado do IDEB - Anos Finais em 2009
+- ideb_af_2011 = Resultado Observado do IDEB - Anos Finais em 2011
+- ideb_af_2013 = Resultado Observado do IDEB - Anos Finais em 2013
+- ideb_af_2015 = Resultado Observado do IDEB - Anos Finais em 2015
+- proj_af_2007 = Resultado Projetado do IDEB - Anos Finais em 2007
+- proj_af_2009 = Resultado Projetado do IDEB - Anos Finais em 2009
+- proj_af_2011 = Resultado Projetado do IDEB - Anos Finais em 2011
+- proj_af_2013 = Resultado Projetado do IDEB - Anos Finais em 2013
+- proj_af_2015 = Resultado Projetado do IDEB - Anos Finais em 2015
+- proj_af_2017 = Resultado Projetado do IDEB - Anos Finais em 2017
+- proj_af_2019 = Resultado Projetado do IDEB - Anos Finais em 2019
+- proj_af_2021 = Resultado Projetado do IDEB - Anos Finais em 2021
 
-Convertemos, por fim, os dados para o formato CSV e para o Formato RData, sendo este último a forma pela qual carregamos os dados mais rapidamente no software R para análises posteriores.
+## Organização
+
+Convertemos, por fim, os dados para o formato CSV e para o Formato RData, sendo este último a forma pela qual carregamos os dados mais rapidamente no software R para análise. 
+
+Confira os dados baixando os arquivos disponíveis em Educadata.org:
+
+- <a href="http://educadata.org/?post_type=wpdmpro&p=32200122097&preview=true" target="_blank">Ideb por Escola</a>
