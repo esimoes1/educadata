@@ -197,4 +197,4 @@ Convertemos, por fim, os dados para o formato CSV e para o Formato RData, sendo 
 
 Confira os dados baixando os arquivos disponíveis em Educadata.org:
 
-- <a href="http://educadata.org/?post_type=wpdmpro&p=32200122097&preview=true" target="_blank">Ideb por Escola</a>
+- <a href="http://educadata.org/download/ideb-por-escola-em-csv/" target="_blank">Ideb por Escola</a>
