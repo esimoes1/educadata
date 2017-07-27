@@ -20,9 +20,15 @@ Os arquivos dos resultados por escola podem ser baixados clicando em:
 - <a href="http://download.inep.gov.br/educacao_basica/portal_ideb/planilhas_para_download/2015/divulgacao_anos_iniciais_escolas_2015.zip" target="_blank">Anos Iniciais</a>
 - <a href="http://download.inep.gov.br/educacao_basica/portal_ideb/planilhas_para_download/2015/divulgacao_anos_finais_escolas_2015.zip" target="_blank">Anos Finais</a>
 
+Baixe-os e extraia os arquivos para dentro da mesma pasta.
+
 ## Extração
 
-Realizamos a extração utilizando o software R com o pacote "xlsx", aplicados diretamente nos arquivos em formato XLSX. Confira algumas observações quanto a extração dos dados:
+Realizamos a extração utilizando o software R com o pacote "xlsx", aplicados diretamente nos arquivos em formato XLSX. Baixe e armazene o script "ideb.R" na mesma pasta dos arquivos "xlsx". Após, é só executar o script usando o RStudio ou executando o seguinte comando em terminal linux:
+
+_Rscript ideb.R_
+
+Veja também algumas observações importantes:
 
 - Devido ao tamanho dos arquivos ocorre um alto consumo de memória RAM, por isso é bom deixar apenas o R executando no computador;
 - Os arquivos possuem formatação visual e, portanto, precisamos retirar as linhas de cabeçalho, linhas com informação e fonte e notas de rodapé (tudo isso via script R mesmo).
