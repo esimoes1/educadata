@@ -1,7 +1,7 @@
 Bases do Censo Escolar
 ========
 
-_Importação e organizaço dos microdados do Censo Escolar 2007-2016 em um banco PostgreSql
+_Importação e organizaço dos microdados do Censo Escolar 2007-2016 em um banco PostgreSql_
 
 ## Conteúdo
 
@@ -37,7 +37,7 @@ Como a soma de todos os microdados ocupariam mais 100 GB totalmente descompactad
 
 2. Crie o schema "censo_escolar" no PostgreSql com o seguinte script SQL:
 
-_`create schema "censo_escolar";`_
+    _`create schema "censo_escolar";`_
 
 3. Crie todas as tabelas necessárias usando os script SQL aaixo:
 
