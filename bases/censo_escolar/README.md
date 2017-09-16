@@ -21,11 +21,12 @@ Utilizaremos em nossas tarefas as seguintes ferramentas:
 1. Linux
 2. PostgreSql
 3. Pentaho Data-Integration (PDI)
+4. Editor de textos
 
 ## Técnicas
 
-1. Converso de arquivos RAR para Gzip
-2. Criação de base, schema e tabela no Psotgres
+1. Conversão de arquivos RAR para Gzip
+2. Criação de base, schema e tabela no PostgreSql
 3. Carga de dados através do PDI
 
 ## Importação
