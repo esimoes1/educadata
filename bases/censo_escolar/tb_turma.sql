@@ -3,7 +3,7 @@
 ## E-mail: georgegomesf@gmail.com
 ## Ubuntu 17.04 GNU/Linux
 ## PostgreSql 9.6
-CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2007
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_turma_2007
 (
   ANO_CENSO INT
 , PK_COD_TURMA INT
@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2007
 )
 ;	
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2008
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_turma_2008
 (
   ANO_CENSO INT
 , PK_COD_TURMA INT
@@ -121,7 +121,7 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2008
 )
 ;	
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2009
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_turma_2009
 (
   ANO_CENSO INT
 , PK_COD_TURMA INT
@@ -195,7 +195,7 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2009
 )
 ;
 -------------------------------------------------------------------------------------------	
-CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2010
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_turma_2010
 (
   ANO_CENSO INT
 , PK_COD_TURMA INT
@@ -269,7 +269,7 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2010
 )
 ;	
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2011
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_turma_2011
 (
   ANO_CENSO INT
 , PK_COD_TURMA INT
@@ -344,7 +344,7 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2011
 )
 ;
 -------------------------------------------------------------------------------------------	
-CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2012
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_turma_2012
 (
   ANO_CENSO INT
 , PK_COD_TURMA INT
@@ -429,7 +429,7 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2012
 )
 ;
 -------------------------------------------------------------------------------------------	
-CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2013
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_turma_2013
 (
   ANO_CENSO INT
 , PK_COD_TURMA INT
@@ -514,7 +514,7 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2013
 )
 ;	
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2014
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_turma_2014
 (
   ANO_CENSO INT
 , PK_COD_TURMA INT
@@ -597,7 +597,7 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2014
 , ID_EDUCACAO_INDIGENA INT
 )
 ;	
-CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2015
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_turma_2015
 (
   NU_ANO_CENSO INT
 , ID_TURMA INT
@@ -690,7 +690,7 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2015
 )
 ;
 -------------------------------------------------------------------------------------------	
-CREATE TABLE IF NOT EXISTS censo_ce.tb_turma_2016
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_turma_2016
 (
   NU_ANO_CENSO INT
 , ID_TURMA INT
