@@ -4,7 +4,7 @@
 ## Ubuntu 17.04 GNU/Linux
 ## PostgreSql 9.6
 
-CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2007
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_matricula_2007
 (
   ANO_CENSO INT
 , PK_COD_MATRICULA BIGINT
@@ -64,7 +64,7 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2007
 )
 ;
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2008
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_matricula_2008
 (
   ANO_CENSO INT
 , PK_COD_MATRICULA BIGINT
@@ -125,7 +125,7 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2008
 )
 ;
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2009
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_matricula_2009
 (
   ANO_CENSO INT
 , PK_COD_MATRICULA BIGINT
@@ -187,7 +187,7 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2009
 )
 ;
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2010
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_matricula_2010
 (
   ANO_CENSO INT
 , PK_COD_MATRICULA BIGINT
@@ -249,7 +249,10 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2010
 )
 ;
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2011
+-- Step                : 2011_o
+-- Database Connection : 
+-- SQL                  :
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_matricula_2011
 (
   ANO_CENSO INT
 , PK_COD_MATRICULA BIGINT
@@ -315,7 +318,10 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2011
 )
 ;
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2012
+-- Step                : 2012_o
+-- Database Connection : 
+-- SQL                  :
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_matricula_2012
 (
   ANO_CENSO INT
 , PK_COD_MATRICULA BIGINT
@@ -393,7 +399,10 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2012
 )
 ;
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2013
+-- Step                : 2013_o
+-- Database Connection : 
+-- SQL                  :
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_matricula_2013
 (
   ANO_CENSO INT
 , PK_COD_MATRICULA BIGINT
@@ -483,7 +492,10 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2013
 )
 ;
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2014
+-- Step                : 2014_o
+-- Database Connection : 
+-- SQL                  :
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_matricula_2014
 (
   ANO_CENSO INT
 , PK_COD_MATRICULA BIGINT
@@ -573,7 +585,10 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2014
 )
 ;
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2015
+-- Step                : 2015_o
+-- Database Connection : 
+-- SQL                  :
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_matricula_2015
 (
   NU_ANO_CENSO INT
 , ID_MATRICULA BIGINT
@@ -671,7 +686,10 @@ CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2015
 )
 ;
 -------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS censo_ce.tb_matricula_ce_2016
+-- Step                : 2016_o
+-- Database Connection : 
+-- SQL                  :
+CREATE TABLE IF NOT EXISTS censo_escolar.tb_matricula_2016
 (
   NU_ANO_CENSO INT
 , ID_MATRICULA BIGINT
