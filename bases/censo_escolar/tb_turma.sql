@@ -3,6 +3,7 @@
 ## E-mail: georgegomesf@gmail.com
 ## Ubuntu 17.04 GNU/Linux
 ## PostgreSql 9.6
+
 CREATE TABLE IF NOT EXISTS censo_escolar.tb_turma_2007
 (
   ANO_CENSO INT
