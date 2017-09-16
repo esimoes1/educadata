@@ -48,6 +48,6 @@ Como a soma de todos os microdados ocupariam mais 100 GB totalmente descompactad
 
 4. Abra os arquivos KTR (feitos em XML) em um editor de textos puro, ajustando as definições de paste com o algum comando de localizar e substituir do seu editor. Veja um exemplo de linha a serem substituída:
 
-        `<filename>/caminho_da_pasta/censo_eb/2016/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>`
+        <filename>/caminho_da_pasta/censo_eb/2016/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>
 
 
