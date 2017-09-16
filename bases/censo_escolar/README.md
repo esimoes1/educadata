@@ -50,4 +50,4 @@ Como a soma de todos os microdados ocupariam mais 100 GB totalmente descompactad
 
         <filename>/caminho_da_pasta/censo_eb/2016/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>
 
-
+5. Abra os arquivos KTR via PDI e, antes de executar as cargas na base, atualize as configuraçes de conexo com o banco de dados clicando na conexão "nome_da_conexão" no painel esquerdo, definindo as opções necessárias de seu banco e compartilhando (share) caso ela ainda não esteja.
