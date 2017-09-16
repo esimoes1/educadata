@@ -51,3 +51,8 @@ Como a soma de todos os microdados ocupariam mais 100 GB totalmente descompactad
         <filename>/caminho_da_pasta/censo_eb/2016/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>
 
 5. Abra os arquivos KTR via PDI e, antes de executar as cargas na base, atualize as configuraçes de conexo com o banco de dados clicando na conexão "nome_da_conexão" no painel esquerdo, definindo as opções necessárias de seu banco e compartilhando (share) caso ela ainda não esteja.
+
+* <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_matricula.ktr" target="_blank">tb_matricula.ktr</a>
+* <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_turma.ktr" target="_blank">tb_turma.ktr</a>
+* <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_docente.ktr" target="_blank">tb_docente.ktr</a>
+* <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_escola.ktr" target="_blank">tb_escola.ktr</a>
