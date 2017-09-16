@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-## tb_matricula.ktr - Realiza carga de todos os dados de docentes do Censo Escolar 2007-2016
+## tb_docente.ktr - Realiza carga de todos os dados de docentes do Censo Escolar 2007-2016
 ## Escrito por: George Gomes (Fortaleza - Ceará)
 ## E-mail: georgegomesf@gmail.com
 ## Ubuntu 17.04 GNU/Linux
