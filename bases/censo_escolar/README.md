@@ -39,10 +39,16 @@ Como a soma de todos os microdados ocupariam mais 100 GB totalmente descompactad
 
     _`create schema "censo_escolar";`_
 
-3. Crie todas as tabelas necessárias usando os script SQL aaixo:
+3. Crie todas as tabelas necessárias usando os script SQL abaixo:
 
 * <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_matricula.sql" target="_blank">tb_matricula.sql</a>
-* <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_turma.sql" target="_blank">tb_turma.sql</a>* <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_docente.sql" target="_blank">tb_docente.sql</a>
+* <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_turma.sql" target="_blank">tb_turma.sql</a>
+* <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_docente.sql" target="_blank">tb_docente.sql</a>
 * <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_escola.sql" target="_blank">tb_escola.sql</a>
 
-4. 
+4. Abra os arquivos KTR (feitos em XML) em um editor de textos puro, ajustando as definições de paste com o algum comando de localizar e substituir do seu editor. Veja um exemplo de linha a serem substituída:
+
+        _`<filename>/caminho_da_pasta/censo_eb/2016/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>`_
+
+
+, ajuste as configurações de conexão e de caminho dos arquivos Gzip arquivos KTR no PDI e altere as informações de conexão para as que você utiliza em seu banco de dados PostgreSql
