@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-
 ## tb_matricula.ktr - Realiza carga de todos os dados de matrícula do Censo Escolar 2007-2016
 ## Escrito por: George Gomes (Fortaleza - Ceará)
 ## E-mail: georgegomesf@gmail.com
 ## Ubuntu 17.04 GNU/Linux
 ## Pentaho Data-Integration 7.0
 ## Ajustes obrigatórios: Configurar conexão com o banco de dados (via PDI) e atualizar o caminho das pastas para os da máquina em que será executado (via PDI ou aqui mesmo)
-
 -->
 <transformation>
   <info>
