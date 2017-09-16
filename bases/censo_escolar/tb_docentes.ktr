@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+## tb_matricula.ktr - Realiza carga de todos os dados de docentes do Censo Escolar 2007-2016
+## Escrito por: George Gomes (Fortaleza - Ceará)
+## E-mail: georgegomesf@gmail.com
+## Ubuntu 17.04 GNU/Linux
+## Pentaho Data-Integration 7.0
+## Ajustes obrigatórios: Configurar conexão com o banco de dados (via PDI) e atualizar o caminho das pastas para os da máquina em que será executado (via PDI ou aqui mesmo)
+-->
 <transformation>
   <info>
     <name>Censo - Docentes</name>
@@ -64,7 +72,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-		<encoding>ISO-8859-1</encoding>    
+    <encoding>ISO-8859-1</encoding>    
     <fields>
       <field><name>ANO_CENSO</name><type>Integer</type><format>&#x23;</format></field>
       <field><name>FK_COD_DOCENTE</name><type>Integer</type><format>&#x23;</format></field>
@@ -185,7 +193,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-		<encoding>ISO-8859-1</encoding>    
+    <encoding>ISO-8859-1</encoding>    
     <fields>
       <field><name>ANO_CENSO</name><type>Integer</type><format>&#x23;</format></field>
       <field><name>FK_COD_DOCENTE</name><type>Integer</type><format>&#x23;</format></field>
@@ -325,7 +333,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-		<encoding>ISO-8859-1</encoding>    
+    <encoding>ISO-8859-1</encoding>    
     <fields>
       <field><name>ANO_CENSO</name><type>Integer</type><format>&#x23;</format></field>
       <field><name>FK_COD_DOCENTE</name><type>Integer</type><format>&#x23;</format></field>
@@ -468,7 +476,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-		<encoding>ISO-8859-1</encoding>    
+    <encoding>ISO-8859-1</encoding>    
     <fields>
       <field><name>ANO_CENSO</name><type>Integer</type><format>&#x23;</format></field>
       <field><name>FK_COD_DOCENTE</name><type>Integer</type><format>&#x23;</format></field>
@@ -611,7 +619,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-		<encoding>ISO-8859-1</encoding>    
+    <encoding>ISO-8859-1</encoding>    
     <fields>
       <field><name>ANO_CENSO</name><type>Integer</type><format>&#x23;</format></field>
       <field><name>FK_COD_DOCENTE</name><type>Integer</type><format>&#x23;</format></field>
@@ -770,7 +778,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-		<encoding>ISO-8859-1</encoding>    
+    <encoding>ISO-8859-1</encoding>    
     <fields>
       <field><name>ANO_CENSO</name><type>Integer</type><format>&#x23;</format></field>
       <field><name>FK_COD_DOCENTE</name><type>Integer</type><format>&#x23;</format></field>
@@ -947,7 +955,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-		<encoding>ISO-8859-1</encoding>    
+    <encoding>ISO-8859-1</encoding>    
     <fields>
       <field><name>ANO_CENSO</name><type>Integer</type><format>&#x23;</format></field>
       <field><name>FK_COD_DOCENTE</name><type>Integer</type><format>&#x23;</format></field>
@@ -1124,7 +1132,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-		<encoding>ISO-8859-1</encoding>    
+    <encoding>ISO-8859-1</encoding>    
     <fields>
       <field><name>ANO_CENSO</name><type>Integer</type><format>&#x23;</format></field>
       <field><name>FK_COD_DOCENTE</name><type>Integer</type><format>&#x23;</format></field>
@@ -1299,7 +1307,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-		<encoding>ISO-8859-1</encoding>    
+    <encoding>ISO-8859-1</encoding>    
     <fields>
       <field><name>NU_ANO_CENSO</name><type>Integer</type><format>&#x23;</format></field>
       <field><name>CO_PESSOA_FISICA</name><type>Integer</type><format>&#x23;</format></field>
@@ -1483,7 +1491,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-		<encoding>ISO-8859-1</encoding>    
+    <encoding>ISO-8859-1</encoding>    
     <fields>
       <field><name>NU_ANO_CENSO</name><type>Integer</type><format>&#x23;</format></field>
       <field><name>CO_PESSOA_FISICA</name><type>Integer</type><format>&#x23;</format></field>
