@@ -1,7 +1,7 @@
 Bases do Censo Escolar
 ========
 
-_Importação e organizaço dos microdados do Censo Escolar 2007-2016 em um banco PostgreSql_
+_Importação e organização dos microdados do Censo Escolar 2007-2016 em um banco PostgreSql_
 
 ## Conteúdo
 
