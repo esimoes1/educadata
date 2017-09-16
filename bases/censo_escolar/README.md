@@ -30,7 +30,19 @@ Utilizaremos em nossas tarefas as seguintes ferramentas:
 
 ## Importação
 
-1. Descompacte todos os arquivos convertendo-os para o formato GZip* usando o seguinte script:
+1. Descompacte todos os arquivos convertendo-os para o formato GZip* usando o seguinte script em um terminal Linux:
 <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/converte_rar_para_gzip.sh" target="_blank">converte_rar_para_gzip.sh</a>
 
-* Como a soma de todos os microdados ocupariam mais 100 GB totalmente descompactados isso irá poupar espaço no disco pois permitirá que você mantenha os arquivos para realizaço de cargas parciais. Após a conversão os arquivos ocuparão em torno de 13GB, mas seu formato Gzip permitirá realizar cargas via PDI a qualquer momento.
+Como a soma de todos os microdados ocupariam mais 100 GB totalmente descompactados isso irá poupar espaço no disco pois permitirá que você mantenha os arquivos para realizaço de cargas parciais. Após a conversão os arquivos ocuparão em torno de 13GB, mas seu formato Gzip permitirá realizar cargas via PDI a qualquer momento.
+
+2. Crie o schema "censo_escolar" no PostgreSql com o seguinte script SQL:
+
+_`create schema "censo_escolar";`_
+
+3. Crie todas as tabelas necessárias usando os script SQL aaixo:
+
+* <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_matricula.sql" target="_blank">tb_matricula.sql</a>
+* <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_turma.sql" target="_blank">tb_turma.sql</a>* <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_docente.sql" target="_blank">tb_docente.sql</a>
+* <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/tb_escola.sql" target="_blank">tb_escola.sql</a>
+
+4. 
