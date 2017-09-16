@@ -13,7 +13,7 @@
   </info>
   <connection>
     <name>nome_da_conexao</name>
-    <server>localhost</server>
+    <server>servidor</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
     <database>nome_da_base</database>
