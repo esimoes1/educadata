@@ -20,8 +20,8 @@
     <access>Native</access>
     <database>nome_da_base</database>
     <port>5432</port>
-    <username>postgres</username>
-    <password></password>
+    <username>usuario</username>
+    <password>senha</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
