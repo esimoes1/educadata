@@ -1,6 +1,7 @@
 ## tb_matricula.sql - Cria tabelas para os microdados de matrícula do Censo Escolar
 ## Escrito por: George Gomes (Fortaleza - Ceará)
 ## E-mail: georgegomesf@gmail.com
+## Site: http://educadata.com.br
 ## Ubuntu 17.04 GNU/Linux
 ## PostgreSql 9.6
 

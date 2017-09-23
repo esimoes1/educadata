@@ -3,6 +3,7 @@
 ## converte_rar_para_gzip.sh - Extrai arquivos RAR e converte CSV para GZIP
 ## Escrito por: George Gomes (Fortaleza - Ceará)
 ## E-mail: georgegomesf@gmail.com
+## Site: http://educadata.com.br
 ## Ubuntu 17.04 GNU/Linux
 
 # Microdados de 2007 a 2015
