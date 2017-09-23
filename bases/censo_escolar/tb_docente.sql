@@ -1,6 +1,7 @@
 ## tb_docente.sql - Cria tabelas para os microdados de docente do Censo Escolar
 ## Escrito por: George Gomes (Fortaleza - Ceará)
 ## E-mail: georgegomesf@gmail.com
+## Site: http://educadata.com.br
 ## Ubuntu 17.04 GNU/Linux
 ## PostgreSql 9.6
 
