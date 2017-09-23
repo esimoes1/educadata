@@ -49,7 +49,7 @@ Como a soma de todos os microdados ocupariam mais de 100 GB totalmente descompac
 
 4. Abra os arquivos KTR (feitos em XML) em um editor de textos puro, ajustando as definições de paste com o algum comando de localizar e substituir do seu editor. Veja um exemplo de linha a serem substituída:
 
-        <filename>/caminho_da_pasta/censo_eb/2016/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>
+        <filename>/caminho_da_pasta/2016/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>
 
 5. Abra os arquivos KTR via PDI e, antes de executar as cargas na base, atualize as configuraçes de conexo com o banco de dados clicando na conexão "nome_da_conexão" no painel esquerdo, definindo as opções necessárias de seu banco e compartilhando (share) caso ela ainda não esteja.
 
