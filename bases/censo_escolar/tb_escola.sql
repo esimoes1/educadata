@@ -1,6 +1,7 @@
 ## tb_escola.sql - Cria tabelas para os microdados de escola do Censo Escolar
 ## Escrito por: George Gomes (Fortaleza - Ceará)
 ## E-mail: georgegomesf@gmail.com
+## Site: http://educadata.com.br
 ## Ubuntu 17.04 GNU/Linux
 ## PostgreSql 9.6
 CREATE TABLE censo_escolar.tb_escola_2007
