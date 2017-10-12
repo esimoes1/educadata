@@ -63,7 +63,7 @@
     <type>ParallelGzipCsvInput</type>    
     <distribute>Y</distribute>    
     <copies>1</copies>
-    <filename>caminho_da_pasta/2007/DADOS/TURMAS.CSV.gz</filename>    
+    <filename>/caminho_da_pasta/2007/DADOS/TURMAS.CSV.gz</filename>    
     <include_filename>N</include_filename>
     <separator>&#x7c;</separator>
     <enclosure>&#x22;</enclosure>

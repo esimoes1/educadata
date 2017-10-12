@@ -62,7 +62,7 @@
     <type>ParallelGzipCsvInput</type>    
     <distribute>Y</distribute>    
     <copies>1</copies>
-    <filename>caminho_da_pasta/2007/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>    
+    <filename>/caminho_da_pasta/2007/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>    
     <include_filename>N</include_filename>
     <separator>&#x7c;</separator>
     <enclosure>&#x22;</enclosure>
@@ -176,7 +176,7 @@
     <type>ParallelGzipCsvInput</type>    
     <distribute>Y</distribute>    
     <copies>1</copies>
-    <filename>caminho_da_pasta/2008/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>    
+    <filename>/caminho_da_pasta/2008/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>    
     <include_filename>N</include_filename>
     <separator>&#x7c;</separator>
     <enclosure>&#x22;</enclosure>
@@ -281,7 +281,7 @@
     <type>ParallelGzipCsvInput</type>    
     <distribute>Y</distribute>    
     <copies>1</copies>
-    <filename>&#x2f;mnt&#x2f;dados&#x2f;censo_eb&#x2f;2009&#x2f;DADOS&#x2f;MATRICULA_NORDESTE.CSV.gz</filename>    
+    <filename>/caminho_da_pasta/2009/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>    
     <include_filename>N</include_filename>
     <separator>&#x7c;</separator>
     <enclosure>&#x22;</enclosure>
@@ -387,7 +387,7 @@
     <type>ParallelGzipCsvInput</type>    
     <distribute>Y</distribute>    
     <copies>1</copies>
-    <filename>&#x2f;mnt&#x2f;dados&#x2f;censo_eb&#x2f;2010&#x2f;DADOS&#x2f;MATRICULA_NORDESTE.CSV.gz</filename>    
+    <filename>/caminho_da_pasta/2010/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>    
     <include_filename>N</include_filename>
     <separator>&#x7c;</separator>
     <enclosure>&#x22;</enclosure>
@@ -493,7 +493,7 @@
     <type>ParallelGzipCsvInput</type>    
     <distribute>Y</distribute>    
     <copies>1</copies>
-    <filename>&#x2f;mnt&#x2f;dados&#x2f;censo_eb&#x2f;2011&#x2f;DADOS&#x2f;MATRICULA_NORDESTE.CSV.gz</filename>    
+    <filename>/caminho_da_pasta/2011/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>    
     <include_filename>N</include_filename>
     <separator>&#x7c;</separator>
     <enclosure>&#x22;</enclosure>
@@ -603,7 +603,7 @@
     <type>ParallelGzipCsvInput</type>    
     <distribute>Y</distribute>    
     <copies>1</copies>
-    <filename>&#x2f;mnt&#x2f;dados&#x2f;censo_eb&#x2f;2012&#x2f;DADOS&#x2f;MATRICULA_NORDESTE.CSV.gz</filename>    
+    <filename>/caminho_da_pasta/2012/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>    
     <include_filename>N</include_filename>
     <separator>&#x7c;</separator>
     <enclosure>&#x22;</enclosure>
@@ -725,7 +725,7 @@
     <type>ParallelGzipCsvInput</type>    
     <distribute>Y</distribute>    
     <copies>1</copies>
-    <filename>&#x2f;mnt&#x2f;dados&#x2f;censo_eb&#x2f;2013&#x2f;DADOS&#x2f;MATRICULA_NORDESTE.CSV.gz</filename>    
+    <filename>/caminho_da_pasta/2013/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>    
     <include_filename>N</include_filename>
     <separator>&#x7c;</separator>
     <enclosure>&#x22;</enclosure>
@@ -859,7 +859,7 @@
     <type>ParallelGzipCsvInput</type>    
     <distribute>Y</distribute>    
     <copies>1</copies>
-    <filename>&#x2f;mnt&#x2f;dados&#x2f;censo_eb&#x2f;2014&#x2f;DADOS&#x2f;MATRICULA_NORDESTE.CSV.gz</filename>    
+    <filename>/caminho_da_pasta/2014/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>    
     <include_filename>N</include_filename>
     <separator>&#x7c;</separator>
     <enclosure>&#x22;</enclosure>
@@ -993,7 +993,7 @@
     <type>ParallelGzipCsvInput</type>    
     <distribute>Y</distribute>    
     <copies>1</copies>
-    <filename>&#x2f;mnt&#x2f;dados&#x2f;censo_eb&#x2f;2015&#x2f;DADOS&#x2f;MATRICULA_NORDESTE.CSV.gz</filename>    
+    <filename>/caminho_da_pasta/2015/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>    
     <include_filename>N</include_filename>
     <separator>&#x7c;</separator>
     <enclosure>&#x22;</enclosure>
@@ -1135,7 +1135,7 @@
     <type>ParallelGzipCsvInput</type>    
     <distribute>Y</distribute>    
     <copies>1</copies>
-    <filename>&#x2f;mnt&#x2f;dados&#x2f;censo_eb&#x2f;2016&#x2f;DADOS&#x2f;MATRICULA_NORDESTE.CSV.gz</filename>    
+    <filename>/caminho_da_pasta/2016/DADOS/MATRICULA_NORDESTE.CSV.gz</filename>    
     <include_filename>N</include_filename>
     <separator>&#x7c;</separator>
     <enclosure>&#x22;</enclosure>
