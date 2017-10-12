@@ -12,7 +12,7 @@ _Extração dos microdados do Censo Escolar 2007-2016 para um banco PostgreSql_
 
 ## Download
 
-Os microdados do Censo Escolar estão disponíveis no site do INEP, e podem ser baixadas de acordo com o ano que você desejar: <a href="http://portal.inep.gov.br/microdados" target="_blank">http://portal.inep.gov.br/microdados</a>
+Os microdados do Censo Escolar estão disponíveis no site do INEP, e podem ser baixadas de acordo com o ano que você desejar: <a href="http://portal.inep.gov.br/microdados" target="_blank">http://portal.inep.gov.br/microdados</a>. É possível adquirir todos os microdados através do script para Linux (shell-script): <a href="https://github.com/professorvirtual/educadata/blob/master/bases/censo_escolar/baixa_os_microdados.sh" target="_blank">converte_rar_para_gzip.sh</a>
 
 ## Recursos
 
