@@ -129,18 +129,18 @@ unrar x 2015/DADOS/TURMAS.rar 2015/DADOS/ && gzip 2015/DADOS/TURMAS.CSV 2015/DAD
 # Microdados de 2016
 
 unzip micro_censo_escolar_2016.zip
-gzip micro_censo_escolar_2016/DADOS/DOCENTES_SUL.CSV 2016/DADOS/DOCENTES_SUL.CSV.gz
-gzip micro_censo_escolar_2016/DADOS/MATRICULA_NORDESTE.CSV 2016/DADOS/MATRICULA_NORDESTE.CSV.gz
-gzip micro_censo_escolar_2016/DADOS/MATRICULA_NORTE.CSV 2016/DADOS/MATRICULA_NORTE.CSV.gz
-gzip micro_censo_escolar_2016/DADOS/MATRICULA_SUDESTE.CSV 2016/DADOS/MATRICULA_SUDESTE.CSV.gz
-gzip micro_censo_escolar_2016/DADOS/DOCENTES_NORDESTE.CSV 2016/DADOS/DOCENTES_NORDESTE.CSV.gz
-gzip micro_censo_escolar_2016/DADOS/MATRICULA_CO.CSV 2016/DADOS/MATRICULA_CO.CSV.gz
-gzip micro_censo_escolar_2016/DADOS/MATRICULA_SUL.CSV 2016/DADOS/MATRICULA_SUL.CSV.gz
-gzip micro_censo_escolar_2016/DADOS/ESCOLAS.CSV 2016/DADOS/ESCOLAS.CSV.gz
-gzip micro_censo_escolar_2016/DADOS/TURMAS.CSV 2016/DADOS/TURMAS.CSV.gz
-gzip micro_censo_escolar_2016/DADOS/DOCENTES_NORTE.CSV 2016/DADOS/DOCENTES_NORTE.CSV.gz
-gzip micro_censo_escolar_2016/DADOS/DOCENTES_SUDESTE.CSV 2016/DADOS/DOCENTES_SUDESTE.CSV.gz
-gzip micro_censo_escolar_2016/DADOS/DOCENTES_CO.CSV 2016/DADOS/DOCENTES_CO.CSV.gz
+gzip micro_censo_escolar_2016/DADOS/DOCENTES_SUL.CSV
+gzip micro_censo_escolar_2016/DADOS/MATRICULA_NORDESTE.CSV
+gzip micro_censo_escolar_2016/DADOS/MATRICULA_NORTE.CSV
+gzip micro_censo_escolar_2016/DADOS/MATRICULA_SUDESTE.CSV
+gzip micro_censo_escolar_2016/DADOS/DOCENTES_NORDESTE.CSV
+gzip micro_censo_escolar_2016/DADOS/MATRICULA_CO.CSV
+gzip micro_censo_escolar_2016/DADOS/MATRICULA_SUL.CSV
+gzip micro_censo_escolar_2016/DADOS/ESCOLAS.CSV
+gzip micro_censo_escolar_2016/DADOS/TURMAS.CSV
+gzip micro_censo_escolar_2016/DADOS/DOCENTES_NORTE.CSV
+gzip micro_censo_escolar_2016/DADOS/DOCENTES_SUDESTE.CSV
+gzip micro_censo_escolar_2016/DADOS/DOCENTES_CO.CSV
 
 # Apaga arquivos RAR
 
