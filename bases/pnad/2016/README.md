@@ -14,7 +14,7 @@ Baixe os dados de cada ano individualmente: <a href="ftp://ftp.ibge.gov.br/Traba
 
 ## Extração
 
-1. Em um terminal de comandos, descompacte o arquivo baixado e gere o arquivo CSV nosso Shell Script: 
+1. Em um terminal de comandos, descompacte o arquivo baixado e gere o arquivo CSV nosso Shell Script: <a href="https://github.com/professorvirtual/educadata/blob/master/bases/pnad/2016/converte_txt_csv.sh">converte_txt_csv.sh</a>
 
 ## Conversão
 
