@@ -6,7 +6,7 @@ _Download, extração e organização dos dados em formato CSV_
 ## Conteúdo
 
 - [Download](#download)
-- [Extração](#extracao)
+- [Extração](#extração)
 - [Dados](#dados)
 
 ## Download
