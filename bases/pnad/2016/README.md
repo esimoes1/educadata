@@ -1,12 +1,14 @@
-Base da PNAD 2016
+Base do Suplemento de Educação da PNAD Contínua 2016
 ========
 
-_Organização e importação dos dados da PNAD 2016 para uma base RData usando um sistema Linux_
+_Organização e importação dos dados do Suplemento de Educação da PNAD Contínua 2016 para uma base RData usando um sistema Linux_
 
 ## Conteúdo
 
 - [Download](#download)
 - [Importação](#extracao)
+- [Armazenamento](#armazenamento)
+- [Produção dos Dados](#produção de dados)
 
 ## Download
 
@@ -22,7 +24,7 @@ Baixe os dados: <a href="http://servicodados.ibge.gov.br/Download/Download.ashx?
 
 2. Abra o software R e use o comando abaixo ou de sua preferência
 
-## Conversão
+## Armazenamento
 
 1. Abra o R no mesmo diretório do arquivo CSV e execute o script abaixo:
 
@@ -35,4 +37,6 @@ Baixe os dados: <a href="http://servicodados.ibge.gov.br/Download/Download.ashx?
         library(data.table)
         fread("PNADC_022016_educacao_20180518.csv")
         save.image("pnad2016.RData")
+## Produção de Dados
 
+Em breve apontaremos para um script completo que repdroduz as principais estatísticas educacionais do IBGE usando PNAD Contínua
