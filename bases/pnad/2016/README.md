@@ -37,6 +37,7 @@ Baixe os dados: <a href="http://servicodados.ibge.gov.br/Download/Download.ashx?
         library(data.table)
         fread("PNADC_022016_educacao_20180518.csv")
         save.image("pnad2016.RData")
-## Produção de Dados
+
+## Produção
 
 Em breve apontaremos para um script completo que repdroduz as principais estatísticas educacionais do IBGE usando PNAD Contínua
