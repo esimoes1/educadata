@@ -6,7 +6,7 @@ _Download, extração e organização dos dados em formato CSV_
 ## Conteúdo
 
 - [Download](#download)
-- [Extração e Organização](#extracao)
+- [Extração](#extracao)
 - [Dados](#dados)
 
 ## Download
@@ -21,7 +21,7 @@ Os arquivos dos resultados por escola podem ser baixados clicando em:
 
 Você deve baixá-los e descompactá-los em uma mesma pasta.
 
-## Extração e Organização
+## Extração
 
 Realizamos a extração utilizando o software R com o pacote "xlsx", aplicados diretamente nos arquivos em formato XLSX. Baixe e armazene o script <a href="https://github.com/professorvirtual/educadata/blob/master/dados/ideb/ideb.R">ideb.R</a> na mesma pasta dos arquivos "xlsx". Após, é só executar o script "ideb.R" usando o RStudio ou executando o seguinte comando em terminal linux.
 
