@@ -1,4 +1,4 @@
-Dados do Índice de Desenvolvimento da Educação Básica - IDEB
+Dados do Índice de Desenvolvimento da Educação Básica - IDEB por Escola
 ========
 
 _Download, extração e organização dos dados em formato CSV_
