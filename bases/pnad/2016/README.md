@@ -8,7 +8,7 @@ _Organização e importação dos dados do Suplemento de Educação da PNAD Cont
 - [Download](#download)
 - [Extração](#extração)
 - [Armazenamento](#armazenamento)
-- [Produção de Dados](#produção de dados)
+- [Produção](#produção)
 
 ## Download
 
