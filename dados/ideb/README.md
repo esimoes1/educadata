@@ -198,7 +198,3 @@ Anos Finais
 ## Dados
 
 Os dados estarão nos formatos CSV e RData, sendo este último a forma pela qual os carregamos mais rapidamente usando o software R. 
-
-Caso não possa realizar os procedimentos que orientamos baixe o arquivo com o resultado desse trabalho, disponível em Educadata.org:
-
-- <a href="http://educadata.org/download/ideb-por-escola-em-csv/" target="_blank">Ideb por Escola</a>
