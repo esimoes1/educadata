@@ -18,7 +18,7 @@ Baixe os dados: <a href="http://servicodados.ibge.gov.br/Download/Download.ashx?
 
 ## Conversão do arquivo TXT da PNAD 2016 para CSV ####
 
-    _`unzip PNADC_022016_educacao_20180518.zip -d . _
+    unzip PNADC_022016_educacao_20180518.zip -d . 
 
 2. Abra o software R e use o comando abaixo ou de sua preferência
 
