@@ -40,4 +40,4 @@ Utilizando o R, especialmente, suas poderosas bibliotecas e funções como "data
 - <a href="https://github.com/professorvirtual/educadata/blob/master/dados/pnad/2016/pnad_2016_educacao.R">Pnad_2016_educacao.R</a>
 Para executá-lo basta usar o seguinte comando em um terminal linux:
 
-    Rscript Pnad_2016_educacao.R
+        Rscript Pnad_2016_educacao.R
