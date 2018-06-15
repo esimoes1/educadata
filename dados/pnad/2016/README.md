@@ -7,7 +7,8 @@ _Orientações para a produção dos dados educacionais do Suplemento de Educaç
 
 - [Introdução](#introdução)
 - [Base](#base)
-- [Extração](#produção)
+- [Dados](#dados)
+- [Produção](#produção)
 
 ## Introdução
 
@@ -22,9 +23,9 @@ Todos os dados aqui produzidos com base em nossas orientações utilizam esses m
 Nessa produção usamos os dados da Pnad 2016, em formato RData, criado segundo orientações presentes em nosso outro documento <a href="https://github.com/professorvirtual/educadata/tree/master/bases/pnad/2016">Base do Suplemento de Educação da PNAD Contínua 2016 (IBGE)</a>. Caso não queira produzí-la, você pode baixar a base através do link abaixo:
 - <a href="https://drive.google.com/file/d/1Roh20NgJ7vWFPNj6qeRW3_ViyyLHHZ_x/view?usp=sharing">Pnad 2016 em formato RData</a>
 
-## Produção
+## Dados
 
-A produção dos dados tem por objetivo confeccionar um arquivo contendo a maior parte dos dados divulgados pelo IBGE, cujos detalhes podem ser encontrados no artigo: <a href="#">Os dados educacionais da PNAD Contínua publicados pelo IBGE</a>. Os indicadores contemplados serão:
+A produção dos dados deve resultar em um arquivo contendo a maior parte dos dados divulgados pelo IBGE, cujos detalhes podem ser encontrados no artigo: <a href="#">Os dados educacionais da PNAD Contínua publicados pelo IBGE</a>. Os indicadores contemplados serão:
 1. População: número de pessoas;
 2. Estudantes: número de pessoas que frequentam a escola;
 3. Pessoas que não sabem ler e escrever;
@@ -32,3 +33,11 @@ A produção dos dados tem por objetivo confeccionar um arquivo contendo a maior
 5. Taxa ajustada de frequência escolar líquida: percentual de pessoas que frequentam a escola na etapa adequada;
 6. Número médio de anos de estudo: valor médio de anos de estudo da população;
 7. Taxa de analfabetismo: percentual de pessoas que não sabem ler e escrever.
+
+## Produção
+
+Utilizando o R, especialmente, suas poderosas bibliotecas e funções como "data.table" e "dcast", respectivamente, os passos da produção estão todos inclusos e comentado no script:
+- <a href="https://github.com/professorvirtual/educadata/blob/master/dados/pnad/2016/pnad_2016_educacao.R">Pnad_2016_educacao.R</a>
+Para executá-lo basta usar o seguinte comando em um terminal linux:
+
+    Rscript Pnad_2016_educacao.R
