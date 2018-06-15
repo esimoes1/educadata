@@ -117,7 +117,7 @@ pnad_pes <- rbind.fill(
 
 # 3. Pessoas que não sabem ler e escrever ####
 
-pnad_analfab <- subset(pnad,V3001==2 & pnad$V1028>=15)
+pnad_analfab <- subset(pnad,V3001==2 & pnad$V2009>=15)
 
 pnad_pes <- rbind.fill(
   data.frame(cd_indicador=3,cd_tipo_categoria=1,dcast(pnad_analfab,CAPITAL+cd_grupo_idade+ds_grupo_idade~"nr_pessoas",value.var=c("V1028"),sum,na.rm=T)),
