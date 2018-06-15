@@ -42,3 +42,7 @@ Utilizando o R, especialmente, suas poderosas bibliotecas e funções como "data
 Para executá-lo basta usar o seguinte comando em um terminal linux:
 
         Rscript Pnad_2016_educacao.R
+
+Caso não queira ou não possa produzí-los, você também pode adquirir os dados baixando o seguinte arquivo CSV:
+
+- <a href="https://drive.google.com/file/d/18BFMNgw-ihH0p8QUKVEIY2Eu3uTJTLUO/view?usp=sharing">PNAD Contínua - Suplemento de Educação 2016</a>
