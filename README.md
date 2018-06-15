@@ -18,10 +18,10 @@ _Produção dos dados educacionais usados nos sites Educadata.org e Educadata.co
 
 As principais bases usadas serão:
 
-- Pesquisa Nacional por Amostra de Domicílios (IBGE)
+- Pesquisa Nacional por Amostra de Domicílios - PNAD (IBGE)
 - Censo Escolar da Educação Básica (INEP)
 - Censo do Ensino Superior (INEP)
-- Sistema de Avaliação da Educação Básica (SAEB)
+- Sistema de Avaliação da Educação Básica - SAEB (INEP)
 
 ## Estrutura
 
