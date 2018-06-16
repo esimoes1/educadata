@@ -9,11 +9,11 @@ library(data.table)
 library(plyr)
 
 # Carrega dados ####
-load("pnad2016.RData")
+load("pnad2017.RData")
 
 # Substituição do dataframe carregado para um a ser usado no tratamento e produção de dados ####
 
-pnad <- pnad2016
+pnad <- pnad2017
 
 # Conversão da variável de peso da pessoa em tipo numérico ####
 pnad$V1028 <- as.numeric(as.character(pnad$V1028))
@@ -352,4 +352,4 @@ pnad_result <- pnad_result[order(c(pnad_result$id_unidade,pnad_result$cd_indicad
 pnad_result <- pnad_result[order(pnad_result$id_unidade,pnad_result$cd_indicador,pnad_result$cd_tipo_categoria,pnad_result$cd_categoria),]
 
 # Exporta resultado para CSV
-write.csv2(pnad_result,"pnad2016_educacao.csv",row.names=F,na="")
+write.csv2(pnad_result,"pnad2017_educacao.csv",row.names=F,na="")
