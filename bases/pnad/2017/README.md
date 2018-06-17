@@ -41,4 +41,4 @@ Baixe os dados: <a href="http://servicodados.ibge.gov.br/Download/Download.ashx?
 
 ## Produção
 
-Você pode descobrir como produzir as principais estatísticas educaionais do IBGE usando a PNAD Contínua de 2017 através de nosso outro documento: <a href="https://github.com/professorvirtual/educadata/tree/master/dados/pnad/2017">Dados Educacionais do Suplemento de Educação da PNAD Contínua 2017 (IBGE)</a>
+Você também pode aprender como produzir as principais estatísticas educaionais do IBGE usando a PNAD Contínua de 2017 através de nosso outro documento: <a href="https://github.com/professorvirtual/educadata/tree/master/dados/pnad/2017">Dados Educacionais do Suplemento de Educação da PNAD Contínua 2017 (IBGE)</a>
