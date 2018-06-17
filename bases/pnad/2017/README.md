@@ -29,7 +29,7 @@ Baixe os dados: <a href="http://servicodados.ibge.gov.br/Download/Download.ashx?
 
 1. Abra o R no mesmo diretório do arquivo CSV e execute o script abaixo:
 
-        pnad2016 <- read.csv2("PNADC_022017_educacao.csv")
+        pnad2017 <- read.csv2("PNADC_022017_educacao.csv")
         save.image("pnad2017.RData")
 
 2. Por ser meio pesado e caso tenha pouca memória RAM isso pode demorar um tempo ou mesmo travar sua máquina. Considere usar também a biblioteca <a href="https://www.rdocumentation.org/packages/data.table/" target="_blank">data.table</a>, que me parece ter um desempenho mais econômico usando a função "fread()":
