@@ -308,9 +308,6 @@ pnad_result$id_unidade <- ifelse(!is.na(pnad_result$id_regiao),pnad_result$id_re
 pnad_result$id_unidade <- ifelse(!is.na(pnad_result$total),0,pnad_result$id_unidade)
 pnad_result$id_unidade <- as.numeric(pnad_result$id_unidade)
 
-# Seleciona dados apenas com código de unidade válidos ####
-pnad_result <- subset(pnad_result,!is.na(id_unidade))
-
 # Define códigos de categorias ####
 pnad_result$cd_categoria <- 99
 pnad_result$cd_categoria <- ifelse(!is.na(pnad_result$cd_grupo_idade),pnad_result$cd_grupo_idade,pnad_result$cd_categoria)
@@ -354,6 +351,9 @@ pnad_result <- pnad_result[order(c(pnad_result$id_unidade,pnad_result$cd_indicad
 
 # Ordena dados
 pnad_result <- pnad_result[order(pnad_result$id_unidade,pnad_result$cd_indicador,pnad_result$cd_tipo_categoria,pnad_result$cd_categoria),]
+
+# Seleciona apenas dados com código de unidade válidos (exclui dados de "não capitais" e de "não regiões metropolitanas") ####
+pnad_result <- subset(pnad_result,!is.na(id_unidade))
 
 # Exporta resultado para CSV
 write.csv2(pnad_result,"pnad_2017_educacao.csv",row.names=F,na="")
