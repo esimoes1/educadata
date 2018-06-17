@@ -1,4 +1,4 @@
-## pnad_2017_educacao.R - Produz os dados educacionais do IBGE usando a Pnad Contínua 2017
+## pnad_2016_educacao.R - Produz os dados educacionais do IBGE usando a Pnad Contínua 2016
 ## Escrito por: George Gomes (Fortaleza - Ceará)
 ## E-mail: georgegomesf@gmail.com
 
