@@ -14,14 +14,14 @@ _Orientações para a produção dos dados educacionais do Suplemento de Educaç
 
 O IBGE produz e publica um conjunto dados educacionais a partir do Suplemento de Educação da PNAD Contínua. Ele pode ser encontrado em dois instrumentos de divulgação do instituto:
 - <a href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv101576_informativo.pdf">PNAD Contínua 2016-2017 - Informativo de Educação</a>
-- <a href="https://drive.google.com/file/d/1Kc8f5O6_rUT5zlDLSppdyGEKeGxpzApu/view?usp=sharing">Tabela: Suplemento de Educação 2016-2017</a>
+- <a href="ftp://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Educacao_2017/PNAD_Continua_2017_Educacao.xls">Tabela: Suplemento de Educação 2016-2017</a>
 
 Todos os dados aqui produzidos com base em nossas orientações utilizam esses materiais como referência metodológica.
 
 ## Base
 
 Nessa produção usamos os dados da Pnad 2017, em formato RData, criado segundo orientações presentes em nosso outro documento <a href="https://github.com/professorvirtual/educadata/tree/master/bases/pnad/2017">Base do Suplemento de Educação da PNAD Contínua 2016 (IBGE)</a>. Caso não queira produzí-la, você pode baixar a base através do link abaixo:
-- <a href="https://educadata.com.br/download/pnad-continua-2017-educacao-base-completa-em-rdata/">pnad2017.RData</a>
+- <a href="https://educadata.com.br/download/pnad-continua-2017-educacao-base-completa-em-rdata/">PNADC_022017_educacao.RData</a>
 
 ## Dados
 
