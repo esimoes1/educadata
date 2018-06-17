@@ -25,7 +25,7 @@ Nessa produção usamos os dados da Pnad 2017, em formato RData, criado segundo 
 
 ## Dados
 
-A produção dos dados deve resultar em um arquivo contendo a maior parte dos dados divulgados pelo IBGE, cujos detalhes podem ser encontrados no artigo: <a href="#">Os dados educacionais da PNAD Contínua publicados pelo IBGE</a>. Os indicadores contemplados serão:
+A produção dos dados deve resultar em um arquivo contendo a maior parte dos dados divulgados pelo IBGE, cujas referências metodológicas podem ser encontradas no artigo: <a href="https://educadata.com.br/os-dados-educacionais-da-pnad-continua-publicados-pelo-ibge/">Os dados educacionais do IBGE</a>. Os indicadores contemplados serão:
 1. População: número de pessoas;
 2. Estudantes: número de pessoas que frequentam a escola;
 3. Pessoas que não sabem ler e escrever;
