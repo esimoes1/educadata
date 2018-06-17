@@ -31,7 +31,7 @@ Baixe os dados: <a href="http://servicodados.ibge.gov.br/Download/Download.ashx?
         pnad2016 <- read.csv2("PNADC_022016_educacao_20180518.csv")
         save.image("PNADC_022016_educacao_20180518.RData")
 
-2. Por envolver muitos dados, e caso seu computador tenha pouca memória RAM, esse processo pode demorar bastante e até mesmo travar sua máquina. Assim, considere como opção utilizar a biblioteca <a href="https://www.rdocumentation.org/packages/data.table/" target="_blank">data.table</a>, que tem um desempenho mais econômico usando a função "fread()":
+2. Por envolver muitos dados, e caso seu computador tenha pouca memória RAM, esse processo pode demorar bastante e até mesmo travar sua máquina. Assim, considere usar, como opção, a biblioteca <a href="https://www.rdocumentation.org/packages/data.table/" target="_blank">data.table</a>, que tem um desempenho mais econômico usando a função "fread()":
 
         install.packages(data.table)
         library(data.table)
