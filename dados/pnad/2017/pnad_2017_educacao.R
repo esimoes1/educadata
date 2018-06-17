@@ -81,7 +81,7 @@ pnad_pes <- rbind.fill(
   data.frame(cd_indicador=2,cd_tipo_categoria=99,dcast(pnad_estuda,CAPITAL~"nr_pessoas",value.var=c("V1028"),sum,na.rm=T)),
   data.frame(cd_indicador=2,cd_tipo_categoria=99,dcast(pnad_estuda,RM_RIDE~"nr_pessoas",value.var=c("V1028"),sum,na.rm=T)),
   data.frame(cd_indicador=2,cd_tipo_categoria=99,dcast(pnad_estuda,UF~"nr_pessoas",value.var=c("V1028"),sum,na.rm=T)),
-  data.frame(cd_indicador=2,cd_tipo_categoria=99,dcast(pnad_estuda,id_regiao~"nr_pessoas",1,1,value.var=c("V1028"),sum,na.rm=T)),
+  data.frame(cd_indicador=2,cd_tipo_categoria=99,dcast(pnad_estuda,id_regiao~"nr_pessoas",value.var=c("V1028"),sum,na.rm=T)),
   data.frame(cd_indicador=2,cd_tipo_categoria=99,dcast(pnad_estuda,total~"nr_pessoas",value.var=c("V1028"),sum,na.rm=T)),
   pnad_pes
 )
