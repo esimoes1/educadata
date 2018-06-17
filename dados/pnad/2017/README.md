@@ -21,7 +21,7 @@ Todos os dados aqui produzidos com base em nossas orientações utilizam esses m
 ## Base
 
 Nessa produção usamos os dados da Pnad 2017, em formato RData, criado segundo orientações presentes em nosso outro documento <a href="https://github.com/professorvirtual/educadata/tree/master/bases/pnad/2017">Base do Suplemento de Educação da PNAD Contínua 2016 (IBGE)</a>. Caso não queira produzí-la, você pode baixar a base através do link abaixo:
-- <a href="https://drive.google.com/file/d/1HLhF7SHPCtxFbtGd6S6G7igiQcYvb7Tl/view?usp=sharing">pnad2017.RData</a>
+- <a href="https://educadata.com.br/download/pnad-continua-2017-educacao-base-completa-em-rdata/">pnad2017.RData</a>
 
 ## Dados
 
