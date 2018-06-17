@@ -12,14 +12,13 @@ library(plyr)
 # Carrega dados ####
 load("pnad2017.RData")
 
-# Substituição do dataframe carregado para um a ser usado no tratamento e produção de dados ####
-
+# Substitui do dataframe carregado para um a ser usado no tratamento e produção de dados ####
 pnad <- pnad2017
 
-# Conversão da variável de peso da pessoa em tipo numérico ####
+# Converte da variável de peso da pessoa em tipo numérico ####
 pnad$V1028 <- as.numeric(as.character(pnad$V1028))
 
-# Criação de variável para o código da grande região ####
+# Cria de variável para o código da grande região ####
 pnad$id_regiao <- substring(pnad$UF,1,1)
 
 # Define variável para a totalização do Brasil ####
@@ -47,7 +46,7 @@ pnad$cd_grupo_idade <- ifelse(pnad$V2009 %in% c(30:39),8,pnad$cd_grupo_idade)
 pnad$cd_grupo_idade <- ifelse(pnad$V2009 %in% c(40:59),9,pnad$cd_grupo_idade)
 pnad$cd_grupo_idade <- ifelse(pnad$V2009 >= 60,10,pnad$cd_grupo_idade)
 
-# Produção de dados e indicadores de acordo com as principais categorias ####
+# Produzi dados e indicadores de acordo com as principais categorias ####
 
 # 1. População ####
 
