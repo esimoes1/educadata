@@ -2,9 +2,6 @@
 ## Escrito por: George Gomes (Fortaleza - Ceará)
 ## E-mail: georgegomesf@gmail.com
 
-# Amplia o uso de memória (JAVA) ####
-options(java.parameters = "-Xmx8000m")
-
 # Impede conversão de número em notação científica ####
 options(scipen=999)
 
