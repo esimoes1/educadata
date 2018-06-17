@@ -12,14 +12,13 @@ library(plyr)
 # Carrega dados ####
 load("pnad2016.RData")
 
-# Substituição do dataframe carregado para um a ser usado no tratamento e produção de dados ####
-
+# Substitui do dataframe carregado para um a ser usado no tratamento e produção de dados ####
 pnad <- pnad2016
 
-# Conversão da variável de peso da pessoa em tipo numérico ####
+# Converte a variável de peso da pessoa em tipo numérico ####
 pnad$V1028 <- as.numeric(as.character(pnad$V1028))
 
-# Criação de variável para o código da grande região ####
+# Cria a variável para o código da grande região ####
 pnad$id_regiao <- substring(pnad$UF,1,1)
 
 # Define variável para a totalização do Brasil ####
