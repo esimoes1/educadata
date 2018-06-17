@@ -21,7 +21,7 @@ Todos os dados aqui produzidos com base em nossas orientações utilizam esses m
 ## Base
 
 Nessa produção usamos os dados da Pnad 2016, em formato RData, criado segundo orientações presentes em nosso outro documento <a href="https://github.com/professorvirtual/educadata/tree/master/bases/pnad/2016">Base do Suplemento de Educação da PNAD Contínua 2016 (IBGE)</a>. Caso não queira produzí-la, você pode baixar a base através do link abaixo:
-- <a href="https://drive.google.com/file/d/1Roh20NgJ7vWFPNj6qeRW3_ViyyLHHZ_x/view?usp=sharing">pnad2016.RData</a>
+- <a href="https://educadata.com.br/download/pnad-continua-2016-educacao-base-completa-em-rdata/">pnad2016.RData</a>
 
 ## Dados
 
@@ -43,7 +43,3 @@ Para executá-lo basta usar o seguinte comando em um terminal linux:
 
         Rscript Pnad_2016_educacao.R
 
-Caso não queira ou não possa produzí-los, o resultado pode ser conferido nos seguintes arquivos CSV e XLSX:
-
-- <a href="https://drive.google.com/file/d/18BFMNgw-ihH0p8QUKVEIY2Eu3uTJTLUO/view?usp=sharing">PNAD Contínua - Suplemento de Educação 2016</a>
-- <a href="https://drive.google.com/file/d/105BgMShMcOuKTAemHqiY1STUwO8AUITG/view?usp=sharing">Dados Educacionais do Suplemento de Educação da PNAD Contínua 2016</a>
