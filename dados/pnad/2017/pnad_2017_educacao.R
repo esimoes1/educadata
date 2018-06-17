@@ -18,7 +18,7 @@ pnad <- pnad2017
 # Converte a variável de peso da pessoa em tipo numérico ####
 pnad$V1028 <- as.numeric(as.character(pnad$V1028))
 
-# Cria de variável para o código da grande região ####
+# Cria variável para o código da grande região ####
 pnad$id_regiao <- substring(pnad$UF,1,1)
 
 # Define variável para a totalização do Brasil ####
