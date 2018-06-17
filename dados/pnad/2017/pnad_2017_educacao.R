@@ -356,4 +356,4 @@ pnad_result <- pnad_result[order(c(pnad_result$id_unidade,pnad_result$cd_indicad
 pnad_result <- pnad_result[order(pnad_result$id_unidade,pnad_result$cd_indicador,pnad_result$cd_tipo_categoria,pnad_result$cd_categoria),]
 
 # Exporta resultado para CSV
-write.csv2(pnad_result,"pnad2017_educacao.csv",row.names=F,na="")
+write.csv2(pnad_result,"pnad_2017_educacao.csv",row.names=F,na="")
