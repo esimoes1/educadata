@@ -20,7 +20,7 @@ Todos os dados aqui produzidos utilizam esses materiais como referência metodol
 
 ## Base
 
-Nessa produção usamos os dados da Pnad 2017, em formato RData, criado segundo orientações presentes em nosso outro documento <a href="https://github.com/professorvirtual/educadata/tree/master/bases/pnad/2017">Base do Suplemento de Educação da PNAD Contínua 2016 (IBGE)</a>. Caso não queira produzí-la, você pode baixar a base através do link abaixo:
+Nessa produção usamos os dados da Pnad Contínua 2017, em formato RData, criado segundo orientações presentes em nosso outro documento <a href="https://github.com/professorvirtual/educadata/tree/master/bases/pnad/2017">Base do Suplemento de Educação da PNAD Contínua 2017 (IBGE)</a>. Caso não queira produzí-la, você pode baixar a base através do link abaixo:
 - <a href="https://educadata.com.br/download/pnad-continua-2017-educacao-base-completa-em-rdata/">PNADC_022017_educacao.RData</a>
 
 ## Dados
@@ -41,6 +41,6 @@ Os passos da produção estão todos inclusos e comentado no script abaixo, feit
 
 Para executá-lo basta usar o seguinte comando em um terminal linux:
 
-        Rscript Pnad_2016_educacao.R
+        Rscript Pnad_2017_educacao.R
 
 
