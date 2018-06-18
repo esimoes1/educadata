@@ -16,7 +16,7 @@ O IBGE produz e publica um conjunto dados educacionais a partir do Suplemento de
 - <a href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv101576_informativo.pdf">PNAD Contínua 2016-2017 - Informativo de Educação</a>
 - <a href="https://www.ibge.gov.br/estatisticas-novoportal/sociais/educacao/17270-pnad-continua.html?edicao=21073&t=resultados">Tabela: Suplemento de Educação 2016-2017</a>
 
-Todos os dados aqui produzidos com base em nossas orientações utilizam esses materiais como referência metodológica.
+Todos os dados aqui produzidos utilizam esses materiais como referência metodológica.
 
 ## Base
 
