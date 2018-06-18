@@ -36,7 +36,7 @@ Baixe os dados: <a href="http://servicodados.ibge.gov.br/Download/Download.ashx?
 
         install.packages(data.table)
         library(data.table)
-        pnad2017 <- fread("PNADC_022017_educacao.csv")
+        pnad2017 <- data.frame(fread("PNADC_022017_educacao.csv"))
         save.image("PNADC_022017_educacao.RData")
 
 ## Produção
