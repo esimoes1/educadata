@@ -31,10 +31,11 @@ _Importação e organização dos dados do ENEM por Escola 2017 para uma base RD
         
         awk -F';' '{if ($1=="NU_INSCRICAO" || ($21 != "" && $16==2 && $19==1)) print}' DADOS/MICRODADOS_ENEM_2017.csv | cut -d';' -f2,21,83-86,91-94,104-110  > MICRODADOS_ENEM_2017_escola.csv
 
-2. Do mesmo modo, extraia apenas os dados das escolas no Censo Escolar:
+2. Do mesmo modo, extraia os dados das escolas no Censo Escolar:
 
         unzip -p micro_censo_escolar_2017.zip Microdados_Censo_Escolar_2017/DADOS/ESCOLAS.zip > ESCOLAS.zip
         unzip ESCOLAS.zip -d .
+        awk -F'|' '{if ($1=="NU_ANO_CENSO" || $149==1 || $150==1 || $151==1) print}' ESCOLAS.CSV | cut -d'|' -f2,3,11,12,14 --output-delimiter=';' > ESCOLAS_enem.csv
 
 ## Armazenamento
 
