@@ -19,7 +19,7 @@ Desde 2016, o INEP não publica mais os resultados das escolas no ENEM. Com isso
 
 ## Base
 
-Nessa produção usamos os microdados do ENEM 2017, em formato RData, criado segundo orientações presentes em nosso outro documento <a href="https://github.com/professorvirtual/educadata/tree/master/bases/enem/2017">Base do ENEM por Escola 2017</a>. Caso não queira produzí-la, você pode baixar a base através dos links abaixo:
+Nessa produção usamos os microdados do ENEM 2017, em formato RData, criado segundo orientações presentes em nosso outro documento <a href="https://github.com/professorvirtual/educadata/tree/master/bases/enem/2017">Base do ENEM por Escola 2017</a>. Caso não queira produzí-la, você pode baixar a base através das opções abaixo:
 - <a href="https://educadata.com.br/download/microdados-do-enem-2017-enem-por-escola-base-em-csv/">MICRODADOS_ENEM_2017_escola.zip</a>
 - <a href="https://educadata.com.br/download/microdados-do-enem-2017-enem-por-escola-base-em-rdata/">MICRODADOS_ENEM_2017_escola.RData</a>
 
