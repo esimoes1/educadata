@@ -20,7 +20,7 @@ Baixe os microdados do ENEM direto do site do INEP: <a href="http://download.ine
 
         unzip microdados_enem2017.zip -d .
         
-        awk -F';' '{if ($1=="NU_INSCRICAO" || ($21 != "" && $16==2 && $19==1)) print}' /DADOS/MICRODADOS_ENEM_2017.csv > /DADOS/MICRODADOS_ENEM_2017_escola.csv
+        awk -F';' '{if ($1=="NU_INSCRICAO" || ($21 != "" && $16==2 && $19==1)) print}' DADOS/MICRODADOS_ENEM_2017.csv > DADOS/MICRODADOS_ENEM_2017_escola.csv
        
 2. Abra o software R e use o comando abaixo ou de sua preferência
 
