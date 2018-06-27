@@ -41,15 +41,8 @@ _Importação e organização dos dados do ENEM por Escola 2017 para uma base RD
 1. Abra o R no mesmo diretório do arquivo CSV e execute o script abaixo:
 
         enem2017 <- read.csv2("MICRODADOS_ENEM_2017_escola.csv",fileEncoding="Latin1")
-        escolas2017 <- read.csv2("ESCOLAS.CSV",sep="|",fileEncoding="Latin1")
-        save.image("MICRODADOS_ENEM_2017_escola.RData")
-
-2. Por envolver muitos dados, e caso seu computador tenha pouca memória RAM, esse processo pode demorar bastante e até mesmo travar sua máquina. Assim, considere usar, como opção, a biblioteca <a href="https://www.rdocumentation.org/packages/data.table/" target="_blank">data.table</a>, que tem um desempenho mais econômico usando a função "fread()":
-
-        install.packages("data.table")
-        library(data.table)
-        enem2017 <- data.frame(fread("MICRODADOS_ENEM_2017_escola.csv",encoding="Latin-1"))
-        escolas2017 <- data.frame(fread("ESCOLA_enem.csv",encoding="Latin-1"))
+        escolas2017 <- read.csv2("ESCOLAS_enem.csv",sep="|",fileEncoding="Latin1")
+        municipios2017 <- read.csv2("UF_e_Municipios_Brasileiros_IBGE.csv")
         save.image("MICRODADOS_ENEM_2017_escola.RData")
 
 ## Produção
