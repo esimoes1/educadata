@@ -31,7 +31,7 @@ Baixe os microdados do ENEM direto do site do INEP: <a href="http://download.ine
         enem2017 <- read.csv("MICRODADOS_ENEM_2017_escola.csv",fileEncoding="Latin-1")
         save.image("MICRODADOS_ENEM_2017_escola.RData")
 
-2. Por envolver muitos dados, e caso seu computador tenha pouca memória RAM, esse processo pode demorar bastante e até mesmo travar sua máquina. Assim, considere suar, como opção, a biblioteca <a href="https://www.rdocumentation.org/packages/data.table/" target="_blank">data.table</a>, que tem um desempenho mais econômico usando a função "fread()":
+2. Por envolver muitos dados, e caso seu computador tenha pouca memória RAM, esse processo pode demorar bastante e até mesmo travar sua máquina. Assim, considere usar, como opção, a biblioteca <a href="https://www.rdocumentation.org/packages/data.table/" target="_blank">data.table</a>, que tem um desempenho mais econômico usando a função "fread()":
 
         install.packages(data.table)
         library(data.table)
