@@ -1,7 +1,7 @@
-Base do ENEM por Escola 2017 (INEP)
+Base do ENEM por Escola 2017
 ========
 
-_Importação e organização dos dados do ENEM por Escola 2017 (INEP) para uma base RData usando um sistema Linux_
+_Importação e organização dos dados do ENEM por Escola 2017 para uma base RData usando um sistema Linux_
 
 ## Conteúdo
 
