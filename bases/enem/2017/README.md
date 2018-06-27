@@ -20,6 +20,9 @@ _Importação e organização dos dados do ENEM por Escola 2017 para uma base RD
 
 - <a href="http://download.inep.gov.br/microdados/micro_censo_escolar_2017.zip" target="_blank">micro_censo_escolar_2017.zip</a>
 
+3. Por fim, adquira a base de nomes e siglas de UF e municípios brasileiros:
+- <a href="https://educadata.com.br/download/uf-e-municipios-brasileiros-ibge-2016/" target="_blank">UF_e_Municipios_Brasileiros_IBGE.csv</a>
+
 ## Extração
 
 1. Em um terminal de comandos, execute nosso script para separar apenas os dados dos alunos de alunos concluintes do Ensino Médio:
