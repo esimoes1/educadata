@@ -14,11 +14,11 @@ _Importação e organização dos dados do ENEM por Escola 2017 para uma base RD
 
 1. Baixe os microdados do ENEM direto do site do INEP: 
 
-        <a href="http://download.inep.gov.br/microdados/microdados_enem2017.zip" target="_blank">microdados_enem2017.zip</a>
+- <a href="http://download.inep.gov.br/microdados/microdados_enem2017.zip" target="_blank">microdados_enem2017.zip</a>
 
 2. Para obter os dados das escolas em 2017, baixe também os microdados do Censo Escolar:
 
-        <a href="http://download.inep.gov.br/microdados/micro_censo_escolar_2017.zip" target="_blank">micro_censo_escolar_2017.zip</a>
+- <a href="http://download.inep.gov.br/microdados/micro_censo_escolar_2017.zip" target="_blank">micro_censo_escolar_2017.zip</a>
 
 ## Extração
 
