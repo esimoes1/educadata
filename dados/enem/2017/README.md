@@ -30,7 +30,7 @@ A produção dos dados deve resultar em um arquivo contendo os percentuais de in
 ## Produção
 
 Os passos da produção estão todos inclusos e comentado no script abaixo, feito em linguagem R:
-- <a href="https://github.com/professorvirtual/educadata/blob/master/dados/enem/2017/enem_por_ escola_2017.R">enem_por_escola_2017.R</a>
+- <a href="https://github.com/professorvirtual/educadata/blob/master/dados/enem/2017/enem_por_escola_2017.R">enem_por_escola_2017.R</a>
 
 Para executá-lo basta usar o seguinte comando em um terminal linux:
 
