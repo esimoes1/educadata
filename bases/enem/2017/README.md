@@ -28,7 +28,6 @@ _Importação e organização dos dados do ENEM por Escola 2017 para uma base RD
 1. Em um terminal de comandos, execute nosso script para separar apenas os dados dos alunos de alunos concluintes do Ensino Médio:
 
         unzip microdados_enem2017.zip -d .
-        
         awk -F';' '{if ($1=="NU_INSCRICAO" || ($21 != "" && $16==2 && $19==1)) print}' DADOS/MICRODADOS_ENEM_2017.csv | cut -d';' -f2,21,83-86,91-94,104-110  > MICRODADOS_ENEM_2017_escola.csv
 
 2. Do mesmo modo, extraia os dados das escolas no Censo Escolar:
@@ -36,6 +35,9 @@ _Importação e organização dos dados do ENEM por Escola 2017 para uma base RD
         unzip -p micro_censo_escolar_2017.zip Microdados_Censo_Escolar_2017/DADOS/ESCOLAS.zip > ESCOLAS.zip
         unzip ESCOLAS.zip -d .
         awk -F'|' '{if ($1=="NU_ANO_CENSO" || $149==1 || $150==1 || $151==1) print}' ESCOLAS.CSV | cut -d'|' -f2,3,11,12,14 --output-delimiter=';' > ESCOLAS_enem.csv
+        unzip -p micro_censo_escolar_2017.zip Microdados_Censo_Escolar_2017/DADOS/TURMAS.zip > TURMAS.zip
+        unzip TURMAS.zip -d .
+        awk -F'|' '{if ($1=="NU_ANO_CENSO" || (($13==27 || $13==28 || $13==32 || $13==33 || $13==37 || $13==38) && $9==0)) print}' TURMAS.CSV | cut -d'|' -f7,69 --output-delimiter=';' > TURMAS_enem.csv
 
 ## Armazenamento
 
