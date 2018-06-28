@@ -9,8 +9,6 @@ library(plyr)
 # Carrega dados ####
 load("MICRODADOS_ENEM_2017_escola.RData")
 
-# 1. CÁLCULO DE PARTICIPAÇÃO
-
 # Trata e alinha a base de escolas acrescentando os rótulos das redes e número de matrículas
 redes <- data.frame(TP_DEPENDENCIA=c(1,2,3,4),DS_DEPENDENCIA=c("Federal","Estadual","Municipal","Privada"))
 escolas2017 <- merge(escolas2017,redes,by="TP_DEPENDENCIA")
@@ -36,7 +34,7 @@ municipios2017 <- merge(municipios2017,regioes,by="id_regiao")
 enem_part <- merge(enem_part,escolas2017,by="id_escola")
 enem_part <- merge(enem_part,municipios2017,by="id_municipio")
 
-# Cálculoa os percentuais de indscritos e participantes, limitando ambos a 100%
+# Calcula os percentuais de indscritos e participantes, limitando ambos a 100%
 enem_part$pc_inscricao <- enem_part$nr_inscritos/enem_part$nr_matriculas*100
 enem_part$pc_participacao <- enem_part$nr_participantes/enem_part$nr_matriculas*100
 enem_part$pc_inscricao <- ifelse(enem_part$pc_inscricao>=100,100,enem_part$pc_inscricao)
@@ -52,8 +50,9 @@ enem_result <- setNames(
 enem_result$nr_media_areas <- (enem_result$nr_media_cn+enem_result$nr_media_ch+enem_result$nr_media_lc+enem_result$nr_media_mt)/4
 enem_result$nr_media_geral <- (enem_result$nr_media_cn+enem_result$nr_media_ch+enem_result$nr_media_lc+enem_result$nr_media_mt+enem_result$nr_media_redacao)/5
 
-# Unifica participação e médias
+#
 
+# Unifica participação e médias
 enem_escola <- merge(enem_part,enem_result,by="id_escola")
 
 # Ordena variáveis
