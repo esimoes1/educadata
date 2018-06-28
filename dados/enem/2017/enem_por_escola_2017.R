@@ -1,9 +1,6 @@
-## Enem_por_escola.R - Produz os resultados do ENEM 2017
+## Enem_por_escola.R - Produz os resultados do ENEM por Escola 2017
 ## Escrito por: George Gomes (Fortaleza - Ceará)
 ## E-mail: georgegomesf@gmail.com
-
-# Impede conversão de número em notação científica ####
-options(scipen=999)
 
 # Carrega bibliotecas utilizadas ####
 library(data.table)
