@@ -14,7 +14,7 @@ _Orientações para a produção dos dados do ENEM por Escola 2017 por meio do S
 
 Desde 2016, o INEP não publica mais os resultados das escolas no ENEM. Com isso, ele também deixou de realizar a verificação de consistência com o Censo Escolar, procedimento que qualificava as informações declaradas no ato da inscrição. Porém, considerando que os dados são de alta relevância para as escolas, para os técnicos educacionais e para os representantes do poder público na área de educação, decidimos disponibilizar a metodologia de produção dos resultados dos alunos concluintes do Ensino Médio por escola. Procuramos, naquilo que foi possível, seguir as recomendações metodológicas abaixo, publicadas pelo INEP:
 
-- <a href="http://download.inep.gov.br//educacao_basica/enem/enem_por_escola/2015/Planilhas_Enem_2015_download.xlsx">Portaria nº 501, de 27 de setembro de 2016 </a>
+- <a href="http://download.inep.gov.br/educacao_basica/enem/legislacao/2016/portaria_n501_27092016_enem_por_escola_2015.pdf">Portaria nº 501, de 27 de setembro de 2016 </a>
 - <a href="http://download.inep.gov.br/educacao_basica/enem/nota_tecnica/2015/nota_explicativa_enem2015_por_escola.pdf">Nota Explicativa - ENEM por Escola 2015</a>
 
 ## Base
