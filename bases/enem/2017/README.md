@@ -54,4 +54,4 @@ _Importação e organização dos dados do ENEM por Escola 2017 para uma base RD
 
 ## Produção
 
-Você também pode aprender como produzir o resultado das escolas brasileiras no ENEM 2017 através de nosso tutorial: <a href="#">ENEM por Escola 2017</a>
+Você também pode aprender como produzir o resultado das escolas brasileiras no ENEM 2017 através de nosso tutorial: <a href="https://github.com/professorvirtual/educadata/tree/master/dados/enem/2017">ENEM por Escola 2017</a>
