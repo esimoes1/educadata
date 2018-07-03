@@ -27,17 +27,20 @@ _Importação e organização dos dados do ENEM por Escola 2017 para uma base RD
 
 1. Em um terminal de comandos, execute nosso script para separar apenas os dados dos alunos de alunos concluintes do Ensino Médio:
 
-        unzip microdados_enem2017.zip -d .
-        awk -F';' '{if ($1=="NU_INSCRICAO" || ($21 != "" && $16==2 && $19==1)) print}' DADOS/MICRODADOS_ENEM_2017.csv | cut -d';' -f2,21,83-86,91-94,104-110  > MICRODADOS_ENEM_2017_escola.csv
+        unzip -p microdados_enem2017.zip DADOS/MICRODADOS_ENEM_2017.csv > MICRODADOS_ENEM_2017.csv
+        awk -F';' '{if ($1=="NU_INSCRICAO" || ($21 != "" && $16==2 && $19==1)) print}' MICRODADOS_ENEM_2017.csv | cut -d';' -f2,21,83-86,91-94,104-110 > MICRODADOS_ENEM_2017_escola.csv
+
 
 2. Do mesmo modo, extraia os dados das escolas e turmas no Censo Escolar:
 
         unzip -p micro_censo_escolar_2017.zip Microdados_Censo_Escolar_2017/DADOS/ESCOLAS.zip > ESCOLAS.zip
         unzip ESCOLAS.zip -d .
-        awk -F'|' '{if ($1=="NU_ANO_CENSO" || $149==1 || $150==1 || $151==1) print}' ESCOLAS.CSV | cut -d'|' -f2,3,11,12,14 --output-delimiter=';' > ESCOLAS_enem.csv
+        awk -F'|' '{if ($1=="NU_ANO_CENSO" || $149==1 || $150==1 || $151==1) print}' ESCOLAS.CSV | cut -d'|' -f2,3,12,14 --output-delimiter=';' > ESCOLAS_enem.csv
+
         unzip -p micro_censo_escolar_2017.zip Microdados_Censo_Escolar_2017/DADOS/TURMAS.zip > TURMAS.zip
         unzip TURMAS.zip -d .
-        awk -F'|' '{if ($1=="NU_ANO_CENSO" || (($13==27 || $13==28 || $13==32 || $13==33 || $13==37 || $13==38) && $9==0)) print}' TURMAS.CSV | cut -d'|' -f7,69 --output-delimiter=';' > TURMAS_enem.csv
+        awk -F'|' '{if ($1=="NU_ANO_CENSO" || (($13==27 || $13==28 || $13==29 || $13==32 || $13==33 || $13==34 || $13==37 || $13==38) && $9==0)) print}' TURMAS.CSV | cut -d'|' -f7,3,13,69 --output-delimiter=';' > TURMAS_enem.csv
+
 
 ## Armazenamento
 
@@ -45,7 +48,8 @@ _Importação e organização dos dados do ENEM por Escola 2017 para uma base RD
 
         enem2017 <- read.csv2("MICRODADOS_ENEM_2017_escola.csv",fileEncoding="Latin1")
         escolas2017 <- read.csv2("ESCOLAS_enem.csv",fileEncoding="Latin1")
-        municipios2017 <- read.csv2("UF_e_Municipios_Brasileiros_IBGE.csv")
+        turmas2017 <- read.csv2("TURMAS_enem.csv",fileEncoding="Latin1")
+        municipios <- read.csv2("UF_e_Municipios_Brasileiros_IBGE.csv")
         save.image("MICRODADOS_ENEM_2017_escola.RData")
 
 ## Produção
