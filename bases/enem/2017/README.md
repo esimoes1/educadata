@@ -39,7 +39,7 @@ _Importação e organização dos dados do ENEM por Escola 2017 para uma base RD
 
         unzip -p micro_censo_escolar_2017.zip Microdados_Censo_Escolar_2017/DADOS/TURMAS.zip > TURMAS.zip
         unzip TURMAS.zip -d .
-        awk -F'|' '{if ($1=="NU_ANO_CENSO" || (($13==27 || $13==28 || $13==29 || $13==32 || $13==33 || $13==34 || $13==37 || $13==38) && $9==0)) print}' TURMAS.CSV | cut -d'|' -f7,3,13,69 --output-delimiter=';' > TURMAS_enem.csv
+        awk -F'|' '{if ($1=="NU_ANO_CENSO" || (($13==27 || $13==28 || $13==29 || $13==32 || $13==33 || $13==34 || $13==37 || $13==38) && $9==0)) print}' TURMAS.CSV | cut -d'|' -f3,13,69 --output-delimiter=';' > TURMAS_enem.csv
 
 
 ## Armazenamento
