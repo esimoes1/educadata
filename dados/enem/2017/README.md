@@ -48,4 +48,7 @@ Para executá-lo, basta usar o seguinte comando em um terminal linux:
 
         Rscript enem_por_escola_2017.R
 
+Caso deseje adquirir os dados faça o download através do link abaixo:
+
+
 
