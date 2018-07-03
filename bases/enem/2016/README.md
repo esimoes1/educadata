@@ -27,30 +27,28 @@ _Importação e organização dos dados do ENEM por Escola 2016 para uma base RD
 
 1. Em um terminal de comandos, execute nosso script para separar apenas os dados dos alunos de alunos concluintes do Ensino Médio:
 
-        unzip -p microdados_enem2016.zip DADOS/MICRODADOS_ENEM_2016.csv > MICRODADOS_ENEM_2016.csv
-        awk -F';' '{if ($1=="NU_INSCRICAO" || ($21 != "" && $16==2 && $19==1)) print}' MICRODADOS_ENEM_2016.csv | cut -d';' -f2,21,83-86,91-94,104-110 > MICRODADOS_ENEM_2016_escola.csv
+        unzip -p microdados_enem2016.zip Microdados_enem_2016/DADOS/microdados_enem_2016.csv > microdados_enem_2016.csv
+        awk -F';' '{if ($1=="NU_INSCRICAO" || ($21 != "" && $16==2 && $19==1)) print}' microdados_enem_2016.csv | cut -d';' -f2,21,89-92,97-100,110-116 > microdados_enem_2016_escola.csv
 
 
 2. Do mesmo modo, extraia os dados das escolas e turmas no Censo Escolar:
 
-        unzip -p micro_censo_escolar_2016.zip Microdados_Censo_Escolar_2016/DADOS/ESCOLAS.zip > ESCOLAS.zip
-        unzip ESCOLAS.zip -d .
+        unzip -p micro_censo_escolar_2016.zip micro_censo_escolar_2016/DADOS/ESCOLAS.CSV > ESCOLAS.CSV
         awk -F'|' '{if ($1=="NU_ANO_CENSO" || $149==1 || $150==1 || $151==1) print}' ESCOLAS.CSV | cut -d'|' -f2,3,12,14 --output-delimiter=';' > ESCOLAS_enem.csv
 
-        unzip -p micro_censo_escolar_2016.zip Microdados_Censo_Escolar_2016/DADOS/TURMAS.zip > TURMAS.zip
-        unzip TURMAS.zip -d .
-        awk -F'|' '{if ($1=="NU_ANO_CENSO" || (($13==27 || $13==28 || $13==29 || $13==32 || $13==33 || $13==34 || $13==37 || $13==38) && $9==0)) print}' TURMAS.CSV | cut -d'|' -f3,13,69 --output-delimiter=';' > TURMAS_enem.csv
+        unzip -p micro_censo_escolar_2016.zip micro_censo_escolar_2016/DADOS/TURMAS.CSV > TURMAS.CSV
+        awk -F'|' '{if ($1=="NU_ANO_CENSO" || (($13==27 || $13==28 || $13==32 || $13==33 || $13==37 || $13==38) && $9==0)) print}' TURMAS.CSV | cut -d'|' -f3,13,69 --output-delimiter=';' > TURMAS_enem.csv
 
 
 ## Armazenamento
 
 1. Abra o R no mesmo diretório do arquivo CSV e execute o script abaixo:
 
-        enem2016 <- read.csv2("MICRODADOS_ENEM_2016_escola.csv",fileEncoding="Latin1")
+        enem2016 <- read.csv2("microdados_enem_2016_escola.csv",fileEncoding="Latin1")
         escolas2016 <- read.csv2("ESCOLAS_enem.csv",fileEncoding="Latin1")
         turmas2016 <- read.csv2("TURMAS_enem.csv",fileEncoding="Latin1")
         municipios <- read.csv2("UF_e_Municipios_Brasileiros_IBGE.csv")
-        save.image("MICRODADOS_ENEM_2016_escola.RData")
+        save.image("microdados_enem_2016_escola.RData")
 
 ## Produção
 
