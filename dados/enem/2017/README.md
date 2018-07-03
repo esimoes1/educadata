@@ -50,5 +50,5 @@ Para executá-lo, basta usar o seguinte comando em um terminal linux:
 
 Caso deseje adquirir os dados faça o download através do link abaixo:
 
-
+- <a href="http://educadata.org/download/enem-por-escola-2017-educadata/">Enem por Escola 2017 - Educadata</a>
 
